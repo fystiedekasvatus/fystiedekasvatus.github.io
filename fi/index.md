@@ -1,6 +1,6 @@
 ## Tervetuloa! 
 
-Tämä on työn alla oleva kokoelma lukio-opetukseen sopivia avointa autenttista dataa hyödyttäviä harjoitteita ohjelmointiin ja datakäsittelyyn perehtymiseksi.
+Tämä on työn alla oleva kokoelma lukio-opetukseen sopivia avointa autenttista dataa hyödyntäviä harjoitteita ohjelmointiin ja datankäsittelyyn perehtymiseksi.
 
 Kokoelma täydentää CERNissa olevan CMS-kokeen [hiukkasfysiikan avointa dataa](https://github.com/cms-opendata-education) käyttävää opetuskokonaisuutta.
 
