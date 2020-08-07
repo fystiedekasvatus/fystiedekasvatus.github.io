@@ -11,5 +11,6 @@ defaults:
      scope:
          path: fi
      values:
+         layout: default_fi
          lang: fi
          base-url: "/fi/"
