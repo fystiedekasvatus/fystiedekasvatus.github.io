@@ -1,2 +1,15 @@
 theme: jekyll-theme-minimal
 title: Open data in education
+defaults:
+    -
+     scope:
+         path: ""
+     values:
+         lang: en
+         base-url: "/"
+    -
+     scope:
+         path: fi
+     values:
+         lang: fi
+         base-url: "/fi/"
