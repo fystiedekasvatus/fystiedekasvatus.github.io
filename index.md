@@ -1,6 +1,6 @@
-## Welcome to opendata-education 
+## Welcome! 
 
-This is a developing collection of open data related exercises for meaningful learning of data skill at the high-school level.
+This is a developing collection of open data related exercises for meaningful learning of data skills at the high-school level.
 
 These exercises complement the offer related to [particle physics open data](https://github.com/cms-opendata-education) from the CMS experiment at CERN. 
 
