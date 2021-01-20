@@ -1,0 +1,87 @@
+<h1 id="jupyter-notebook">Jupyter Notebook</h1>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" alt="jupyter" width="40%" class="center" /></p>
+
+<p>Jupyter Notebook on avoimen lähdekoodin työkalu, joka on syntynyt IPythonin pohjalta osana <a href="https://jupyter.org/">Project Jupyteria</a> vuonna 2014. Niitä voi luoda, käsitellä ja muokata sekä omalla koneellaan että verkon ylitse.</p>
+
+<p>Notebookien vahvuudet ovat opetustoimen tarpeisiin mitä parhaimmat. Ei erityisempää asennushäslinkiä, ei raskasta kehitystyöympäristöä, jakaminen ja muokkaaminen on helppoa, jatkuva kyky ajaa ja muokata yksittäisiä paloja koodissa, systeemiä ei ole sidottu mihinkään tiettyyn aiheeseen ja niin edelleen. Tarjottujen harjoitteiden pohjalta opettajien on helppoa lähteä luomaan omia materiaalejaan.</p>
+
+<p>Kyseessä on verkkoselainkäyttöinen, JSON-pohjainen muistio, jossa voidaan yhdistää näppärästi ja vuorovaikutteisesti niin kuvia, tekstiä kuin koodiakin. Muistio on tyyppiä IPYNB (IPython Notebook), mutta tallentuu esittelyä varten helposti vaikkapa HTML- tai PDF-muodossa. Muistio itse on ohjelmointikielen suhteen neutraali pohja, mutta siihen liitetään sopiva ydin (kernel), joka ymmärtää haluttua kieltä. Project Jupyter alkoi pääasiassa Julian, Pythonin ja R-kielen ympäristönä, mutta nykyisellään sitä voi käyttää kymmenillä muillakin. Tällä sivulla keskitytään Pythoniin.</p>
+
+<h2 id="jupyter-notebookien-käyttöönotto">Jupyter Notebookien käyttöönotto</h2>
+
+<p>Jupyter Notebookeja voi käsitellä joko lokaalisti omalta tietokoneeltaan tai verkon yli selaimella virtuaalisella työtasolla.</p>
+
+<p>Selaimessa ajettaessa ei tarvitse tehdä mitään latauksia ja materiaaleihin pääsee yleensä parissa minuutissa käsiksi, mutta tämä vaatii jatkuvaa verkkoyhteyttä ja on usein aikarajoitettua (MyBinder esimerkiksi irrottaa yhteyden, mikäli mitään laskentaa ei tehdä kymmeneen minuuttiin). Sopii hyvin esimerkiksi demoihin tai intensiiviseen työpajatoimintaan, mutta pidempiä projekteja varten kannattaa suosiolla ladata koneelleen sopiva sovellus tätä varten.
+</p>
+
+<h3 id="1-pikaohje-selaimessa-avaamiseen">1. Pikaohje selaimessa avaamiseen</h3>
+
+<h4 id="mybinder">MyBinder</h4>
+
+<p>I Etsi sopivan muistion tai GitHub-repon osoite, esim. <a href="https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Higgs-hakusessa-4-leptonia.ipynb">https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Higgs-hakusessa-4-leptonia.ipynb</a></p>
+
+<p>II Avaa <a href="https://mybinder.org">MyBinder</a>, joka rakentaa virtuaalisen työtilan. Sivu näyttää suunnilleen tältä:</p>
+
+<p><img src="../assets/img/Binder.png" alt="binder" /></p>
+
+<p>III Kopioi ensimmäisen kohdan osoite kenttiin, joko pelkkä <a href="https://github.com/cms-opendata-education/cms-jupyter-materials-finnish">https://github.com/cms-opendata-education/cms-jupyter-materials-finnish</a> (rakentaa koko repon ja avaa puurakenteen) tai suoraan tiedostoon paloittelemalla linkki tähän tapaan:</p>
+
+<p><img src="../assets/img/Binder2.png" alt="binder" /></p>
+
+<p>IV Paina “launch” ja odota hetki.</p>
+
+<p>V Käy hommiin!</p>
+
+<p>VI Opetushommia ajatellen, huomaa kuvan alaosassa näkyvä valmiiden materiaalien jakolinkki joka on helppoa upottaa verkkosivuille tai viesteihin niin että opiskelijat pääsevät suoraan töihin yhdellä klikkauksella. Esimerkiksi äskeisen harjoitteen saa Binderilla auki tästä HTML-napista painamalla:</p>
+
+<p><a href="https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-finnish/master?filepath=Demot%2FHiukkasfysiikkaa%2FHiggs-hakusessa-4-leptonia.ipynb"><img src="https://mybinder.org/badge.svg" alt="Binder" /></a></p>
+
+<h4 id="google-colab">Google Colab</h4>
+
+<p>I Etsi sopiva tiedosto, käytetään samaa kuin yllä (teknisesti haetaan myöhemmin, mutta tietäminen helpottaa löytämistä).</p>
+
+<p>II Avaa <a href="https://colab.research.google.com/notebooks/intro.ipynb">Colab</a>.</p>
+
+<p>III Paina vasemmalta ylhäältä “File”-valikosta “Open Notebook”.</p>
+
+<p>IV Avaa “GitHub” -välilehti ja hae haluamaasi repositoriota nimellä.</p>
+
+<p><img src="../assets/img/Colab.png" alt="colab" /></p>
+
+<p>V Etsi listasta haluamasi tiedosto ja paina avausnappia oikealla:</p>
+
+<p><img src="../assets/img/Colab2.png" alt="colab" /></p>
+
+<p>VI Käy hommiin!</p>
+
+<p>VII Sama juttu pikalinkkien kanssa, Colabiinkin voi viitata suoraan yhdellä klikkauksella:
+<a href="https://colab.research.google.com/github/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Demot/Hiukkasfysiikkaa/Higgs-hakusessa-4-leptonia.ipynb"><img src="https://github.com/cms-opendata-education/cms-jupyter-materials-finnish/blob/master/Kuvat/colab_icon.png?raw=true" alt="Colaboratory" /></a></p>
+
+<h3 id="2-pikaohje-omalla-koneella-toimimiseen">2. Pikaohje omalla koneella toimimiseen</h3>
+
+<h4 id="materiaalien-lataaminen">Materiaalien lataaminen</h4>
+
+<p>I Jos haluat käyttää materiaalipankkimme materiaaleja omalla koneellasi, sinun tulee ensin ladata ne <a href="https://github.com/cms-opendata-education/cms-jupyter-materials-finnish">GitHub-sivultamme</a>. Voit ladata kaiken sisällön kerralla zip-pakettina klikkaamalla nappia “Code” ja valitsemalla vaihtoehdon “Download ZIP”:</p>
+
+<p><img src="../assets/img/github-materiaalien-lataaminen-nuolilla.png" alt="GitHub-materiaalien lataaminen" /></p>
+
+<p>II Pura zip-paketti haluamaasi kansioon tietokoneellesi.</p>
+
+<h4 id="materiaalien-käyttäminen">Materiaalien käyttäminen</h4>
+
+<p>I Asenna koneellesi sopiva sovellus, kuten itse <a href="https://jupyter.org/">Jupyter Notebook</a> tai laajempi datatieteen paketti kuten <a href="https://www.anaconda.com/products/individual">Anaconda</a>, jossa on aiempi mukana.</p>
+
+<p>II Avaa äskeinen (Anacondan tapauksessa löytynee nimellä Anaconda Navigator).</p>
+
+<p>III Valitse “Jupyter Notebook”, joka avaa verkkoselaimeesi koneesi paikallisen puurakenteen.</p>
+
+<p><img src="../assets/img/ana.png" alt="ana" /></p>
+
+<p><img src="../assets/img/tree.png" alt="tree" /></p>
+
+<p>IV Etsi tiedostoistasi haluamasi muistio ja käy töihin.</p>
+
+<p>V Jos haluat tehdä uusia muistioita, navigoi itsesi puussa kansioon johon haluat tehdä uuden tiedoston ja paina “New” nappia.</p>
+
+<p><img src="../assets/img/tree2.png" alt="new" /></p>

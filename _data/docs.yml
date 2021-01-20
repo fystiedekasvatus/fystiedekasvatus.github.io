@@ -1,0 +1,24 @@
+fi: 
+  - page: Avoin data
+    url: /fi/avoin-data.html
+
+  - page: Jupyter Notebook -ympärstö
+    url: /fi/oppimisymparisto.html
+    subfolderitems:
+    - page: Jupyter Notebook 
+      url: /fi/jupyter.html
+    - page: Python-ohjelmointi
+      url: /fi/python.html
+   
+  - page: Materiaalit
+    url: /fi/materiaalit.html
+
+  - page: Oman materiaalin tekeminen
+    url: /fi/omat-materiaalit.html
+
+  - page: Osallistu kehitystyöhön
+    url: /fi/osallistu.html
+
+en:
+
+se:

@@ -1,0 +1,226 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Sets the height and includes paddings & margins in element sizes */
+html, body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  display: inline-block;
+}
+
+/* Sticks navigation bar to the left of the screen, excluding mobile version */
+@media only print, screen and (min-width: 960px) {
+  body {
+    width: 100%;
+    padding-top: 40px !important;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  #wrapper {
+    width: 100%;
+    flex: 1 0 auto;
+    min-height: 85%;
+  }
+  
+  #sidebar {
+    height: 100%;
+    width: 250px;
+    left: 5%;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+  }
+
+  header {
+    width: inherit !important;
+    height: auto;
+  }
+
+  #nav-footer {
+    bottom: 20px;
+    width: inherit;
+  }
+
+  .lang {
+    position: absolute;
+    text-align: right;
+  }
+
+    /* Sets the language options to align on the same line with each other */
+  .lang li {
+    float: right;
+    padding-left: 1em;
+  }
+
+  .lang img {
+    height: 19px;
+  }
+
+  #content {
+    width: 50%;
+    display: block;
+    float: right;
+    margin-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    clear: left;
+  }
+
+  /* Note that as the footer is located outside content div in the HTML code (to be able to make it is stick to the bottom), 
+  the size and position needs to be set here manually */
+  #content-footer {
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 35%;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    flex-shrink: 0;
+  }
+}
+
+@media print, screen and (max-width: 960px) {
+
+  body {
+    padding-top: 20px !important;
+  }
+  
+  #content {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .lang {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+  }
+
+    /* Sets the language options to align on the same line with each other */
+  .lang li {
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 1em;
+  }
+
+  .lang img {
+    height: 19px;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  body {
+    padding-top: 0px !important;
+  }
+
+  .lang {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .lang li {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 1em;
+  }
+
+  .lang img {
+    height: 25px;
+    display: block;
+  }
+
+  #content {
+    margin-bottom: 0px;
+  }
+}
+
+#content-footer {
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 15px;
+}
+
+/* Manually setting the navigation footer position so that it won't overlap the navigation links in a small window on the main page.
+If the number of navigation links changes, attributes max-height and top need to be changed here. */
+@media print, screen and (max-height: 440px) and (min-width: 960px) {
+  #nav-footer {
+    position: fixed;
+    top: 310px;
+  }
+}
+
+body a {
+  color: #1d8fc9;
+}
+
+/* Overrides theme css and prevents links to bold on hover */
+body a:focus, a:visited {
+  font-weight: normal;
+}
+
+/* Overrides theme css and prevents links to bold on hover and colors the link text */
+body a:hover, a:active {
+  font-weight: normal;
+  color: #0b2f41;
+}
+
+/* Keeps navigation links' style on hover */
+header a:link, a:hover, a:active, a:focus, a:visited {
+  font-weight: inherit;
+}
+
+/* Settings for the lang class div and ul items */
+.lang {
+  width: 90%;
+  height: 40px;
+  display: block;
+}
+
+/* Styles the language option list */
+.lang ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Adds shadows to the flag icons */
+.lang img {
+  box-shadow: 0px 2px 5px #888888;
+}
+
+/* Sets position for the GitHub logo */
+#gh-logo {
+  display: inline-block;
+  vertical-align: -4px;
+  margin-right: 5px;
+}
+
+/* Underlines the current page in navigation */
+header .current {
+  display: inline;
+  border-bottom: 1px solid #0b2f41;
+  padding-bottom: 1px;
+  color: #0b2f41;
+}
+
+/* Indents subnavigation items */
+.subnav {
+  text-indent: 1em;
+}
+
+/* Add an image to this class to center it on the page */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

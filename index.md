@@ -1,9 +1,14 @@
-## Welcome! 
+---
+title: Tervetuloa avoimen datan pariin!
+lang: fi
+ref: index
+---
 
-This is a developing collection of open data related exercises for meaningful learning of data skills at the high-school level.
+# Tervetuloa avoimen datan pariin!
 
-These exercises complement the offer related to [particle physics open data](https://github.com/cms-opendata-education) from the CMS experiment at CERN. 
+Tämä on kokoelma lukio-opetukseen sopivia avointa autenttista dataa hyödyntäviä harjoitteita ohjelmointiin ja datankäsittelyyn perehtymiseksi.
+Harjoitteiden oppimisympäristönä käytetään interaktiivisia Jupyter Notebookeja, joissa voidaan esimerkiksi lukea, käsitellä ja visualisoida avointa dataa Python-ohjelmointia hyödyntäen. Aikaisempaa kokemusta notebookeista tai Pythonista ei tarvita materiaalin käyttämiseksi.
 
-The material is developed under the coordination of the [Education and open data](https://www.hip.fi/research/education-and-open-data/) project at [Helsinki Institute of Physics](https://www.hip.fi/) and is made possible by a grant from [Finnish National Agency of Education](https://www.oph.fi/en).
+Materiaalia kehitetään [Fysiikan tutkimuslaitoksen](https://www.hip.fi) [Koulutoiminta ja avoin data](https://www.hip.fi/research/education-and-open-data/) -projektissa ja sen mahdollistaa [Opetushallituksen](https://www.oph.fi/) valtionavustus tiedekasvatuksen edistämiseen.
 
-
+Järjestämme koulutusta opettajille avoimen datan käytössä opetuksessa. Viimeksi koulutimme Rovaniemellä (katso [ohjelma](https://indico.cern.ch/event/797901/)) ja seuraava koulutus järjestetään kunhan ajat sen sallivat. Kehitämme paraikaa ohjeistusta materiaalin helppoon ja nopeaan käyttöönottoon.
