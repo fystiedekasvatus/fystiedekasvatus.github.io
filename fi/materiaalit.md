@@ -2,7 +2,6 @@
 title: Materiaalit
 lang: fi
 ref: materiaalit
-category: materiaalit
 ---
 
 # Materiaalit
@@ -10,7 +9,7 @@ category: materiaalit
 Kehitetyt materiaalit on karkeasti jaettu sekä kielen että oppiaineen mukaan.
 Materiaalit ovat saatavilla Jupyter Book -ympäristöissä, joihin pääset alempana olevista linkeistä.
 Jupyter Bookit ovat käytännössä siistin näköisiä dokumentteja tai "kirjoja", jotka koostuvat Markdown- ja notebook-tiedostoista.
-Jupyter Bookien hyviä puolia ovat mm. että niiden käyttöönotto on helppoa, notebookit ja niissä olevat koodisolut voidaan ajaa valmiiksi, jolloin tulos näkyy suoraan kirjassa ja notebookien käynnistäminen muokattavaan muotoon Binderissa on vaivatonta.
+Jupyter Bookien hyviä puolia ovat mm. että niiden käyttöönotto on helppoa, notebookit ja niissä olevat koodisolut voidaan ajaa valmiiksi, jolloin tulos näkyy suoraan kirjassa ja notebookien käynnistäminen muokattavaan muotoon MyBinderissa on vaivatonta. 
 
 ## Suomenkieliset materiaalit
 
@@ -28,6 +27,8 @@ Englanninkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
 Jupyter Bookeihin pääset kätevästi yllä olevista linkeistä.
 Kirjat pitävät sisällään aina yhteen aiheeseen liittyviä harjoituksia, jotka näkyvät yleensä valmiiksi ajettuina notebookeina.
 Koodia pääsee itse kokeilemaan ja muokkaamaan käynnistämällä haluamansa notebook Binderissa (ks. ohje alla).
+Jos tarvitset ohjeita Jupyter Notebookin käyttöön, paina [tästä](/fi/jupyter/jupyter-aloitus.html).
+Jos tarvitset ohjeita Pythonin käyttöön, paina [tästä](/fi/jupyter/python.html).
 
 ### Notebookin käynnistäminen Binderissa
 

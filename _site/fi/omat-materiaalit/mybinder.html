@@ -7,17 +7,17 @@
 
 
   <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Tervetuloa avoimen datan pariin! | Avoin data opetuskäyttöön - näillä ohjeilla alkuun!</title>
+<title>Materiaalin jakaminen MyBinderissa | Avoin data opetuskäyttöön - näillä ohjeilla alkuun!</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Tervetuloa avoimen datan pariin!" />
+<meta property="og:title" content="Materiaalin jakaminen MyBinderissa" />
 <meta property="og:locale" content="fi" />
 <meta name="description" content="About opendata-education" />
 <meta property="og:description" content="About opendata-education" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/fi/omat-materiaalit/mybinder.html" />
+<meta property="og:url" content="http://localhost:4000/fi/omat-materiaalit/mybinder.html" />
 <meta property="og:site_name" content="Avoin data opetuskäyttöön - näillä ohjeilla alkuun!" />
 <script type="application/ld+json">
-{"@type":"WebSite","headline":"Tervetuloa avoimen datan pariin!","url":"http://localhost:4000/","description":"About opendata-education","name":"Avoin data opetuskäyttöön - näillä ohjeilla alkuun!","@context":"https://schema.org"}</script>
+{"@type":"WebPage","headline":"Materiaalin jakaminen MyBinderissa","url":"http://localhost:4000/fi/omat-materiaalit/mybinder.html","description":"About opendata-education","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link rel="stylesheet" href="/assets/css/styles.css">
@@ -53,6 +53,16 @@
           
             <h3><a href="/fi/omat-materiaalit/omat-materiaalit" >Oman materiaalin tekeminen</a></h3> <!--This comes from this repo's _data/docs.yml-->
               
+                
+                  <h4 class="subnav"><a href="/fi/omat-materiaalit/notebookien-luominen" >Notebookien luominen</a></h4> 
+                
+                  <h4 class="subnav"><a href="/fi/omat-materiaalit/github" >GitHub</a></h4> 
+                
+                  <h4 class="subnav"><a href="/fi/omat-materiaalit/mybinder"  class="current" >MyBinder</a></h4> 
+                
+                  <h4 class="subnav"><a href="/fi/omat-materiaalit/jupyterbook" >Jupyter Book</a></h4> 
+                
+              
           
             <h3><a href="/fi/osallistu" >Osallistu kehitystyöhön</a></h3> <!--This comes from this repo's _data/docs.yml-->
               
@@ -66,14 +76,19 @@
       </div>
       <section id="content">
 
-      <h1 id="tervetuloa-avoimen-datan-pariin">Tervetuloa avoimen datan pariin!</h1>
+      <h1 id="materiaalin-jakaminen-mybinderissa">Materiaalin jakaminen MyBinderissa</h1>
 
-<p>Tämä on kokoelma lukio-opetukseen sopivia avointa autenttista dataa hyödyntäviä harjoitteita ohjelmointiin ja datankäsittelyyn perehtymiseksi.
-Harjoitteiden oppimisympäristönä käytetään interaktiivisia Jupyter Notebookeja, joissa voidaan esimerkiksi lukea, käsitellä ja visualisoida avointa dataa Python-ohjelmointia hyödyntäen. Aikaisempaa kokemusta notebookeista tai Pythonista ei tarvita materiaalin käyttämiseksi.</p>
+<p>Mikäli haluat, että GitHubiin tallentamiasi notebookeja pystyy käyttämään MyBinderissa, tulee GitHub-repoon lisätä “requirements.txt”-niminen tiedosto, johon on listattuna kaikki python-kirjastot, joita notebookeissasi käytetään tai joita haluat, että niissä pystyy käyttämään. Esimerkki tällaisesta tiedostosta on <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/opendata-education/Maantiede/blob/main/requirements.txt">tässä</a>.</p>
 
-<p>Materiaalia kehitetään <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.hip.fi">Fysiikan tutkimuslaitoksen</a> <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.hip.fi/research/education-and-open-data/">Koulutoiminta ja avoin data</a> -projektissa ja sen mahdollistaa <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.oph.fi/">Opetushallituksen</a> valtionavustus tiedekasvatuksen edistämiseen.</p>
+<p>Opiskelijoille jaettavan MyBinder-linkin GitHub-sivullasi oleviin notebookeihin saat seuraavasti:</p>
 
-<p>Järjestämme koulutusta opettajille avoimen datan käytössä opetuksessa. Viimeksi koulutimme Rovaniemellä (katso <a rel="nofollow noopener noreferrer" target="_blank" href="https://indico.cern.ch/event/797901/">ohjelma</a>) ja seuraava koulutus järjestetään kunhan ajat sen sallivat. Kehitämme paraikaa ohjeistusta materiaalin helppoon ja nopeaan käyttöönottoon.</p>
+<ol>
+  <li>Kopioi GitHub-reposi osoite, tai suoraan haluamasi notebookin osoite, esimerkiksi <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/opendata-education/Maantiede/blob/main/materiaali/harjoitukset/lyhimman_reitin_analyysi.ipynb">https://github.com/opendata-education/Maantiede/blob/main/materiaali/harjoitukset/lyhimman_reitin_analyysi.ipynb</a></li>
+  <li>Mene sivulle <a rel="nofollow noopener noreferrer" target="_blank" href="https://mybinder.org">https://mybinder.org</a>.</li>
+  <li>Kopioi koko GitHub-repon tapauksessa osoite kenttään “GitHub repository name or URL”. Yksittäisen notebookin tapauksessa pilko osoite kenttiin seuraavasti: <img src="/assets/img/binder-launch-notebook-arrow.png" alt="binder" /></li>
+  <li>Kopioi linkki “Copy the URL below and share your Binder with others”-kentästä ja jaa se opiskelijoille.</li>
+  <li>Voit itse avata notebookin MyBinderissa painamalla “Launch”-nappia. MyBinder rakentaa GitHub-reposta virtuaalisen työtilan, jossa voit muokata ja käyttää notebookeja. Huom. virtuaalisesssa työtilassa tehdyt muokkaukset eivät muuta notebookeja GitHub-repossasi, vaan ainoastaan virtuaalisen työtilan sisällä.</li>
+</ol>
 
 
       </section>

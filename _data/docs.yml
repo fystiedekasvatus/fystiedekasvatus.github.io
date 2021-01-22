@@ -1,20 +1,32 @@
 fi: 
-  - page: Avoin data
-    url: /fi/avoin-data.html
-
-  - page: Jupyter Notebook -ympärstö
-    url: /fi/oppimisymparisto.html
-    subfolderitems:
-    - page: Jupyter Notebook 
-      url: /fi/jupyter.html
-    - page: Python-ohjelmointi
-      url: /fi/python.html
-   
   - page: Materiaalit
     url: /fi/materiaalit.html
+  
+  - page: Avoin data
+    url: /fi/data/avoin-data.html
+    subfolderitems:
+    - page: Avoin data linkkejä
+      url: linkkeja.html
 
+  - page: Jupyter Notebook -ympäristö
+    url: /fi/jupyter/jupyter.html
+    subfolderitems:
+    - page: Notebookien käyttö
+      url: /fi/jupyter/jupyter-aloitus.html
+    - page: Python-ohjelmointi
+      url: /fi/jupyter/python.html
+   
   - page: Oman materiaalin tekeminen
-    url: /fi/omat-materiaalit.html
+    url: /fi/omat-materiaalit/omat-materiaalit.html
+    subfolderitems:
+    - page: Notebookien luominen
+      url: /fi/omat-materiaalit/notebookien-luominen.html
+    - page: GitHub
+      url: /fi/omat-materiaalit/github.html
+    - page: MyBinder
+      url: /fi/omat-materiaalit/mybinder.html
+    - page: Jupyter Book
+      url: /fi/omat-materiaalit/jupyterbook.html
 
   - page: Osallistu kehitystyöhön
     url: /fi/osallistu.html

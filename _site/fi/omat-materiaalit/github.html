@@ -7,21 +7,21 @@
 
 
   <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Omien materiaalien laatiminen | Avoin data opetuskäyttöön - näillä ohjeilla alkuun!</title>
+<title>Materiaalien laittaminen GitHubiin | Avoin data opetuskäyttöön - näillä ohjeilla alkuun!</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Omien materiaalien laatiminen" />
+<meta property="og:title" content="Materiaalien laittaminen GitHubiin" />
 <meta property="og:locale" content="fi" />
 <meta name="description" content="About opendata-education" />
 <meta property="og:description" content="About opendata-education" />
-<link rel="canonical" href="http://localhost:4000/fi/omat-materiaalit.html" />
-<meta property="og:url" content="http://localhost:4000/fi/omat-materiaalit.html" />
+<link rel="canonical" href="http://localhost:4000/fi/omat-materiaalit/github.html" />
+<meta property="og:url" content="http://localhost:4000/fi/omat-materiaalit/github.html" />
 <meta property="og:site_name" content="Avoin data opetuskäyttöön - näillä ohjeilla alkuun!" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Omien materiaalien laatiminen","url":"http://localhost:4000/fi/omat-materiaalit.html","description":"About opendata-education","@context":"https://schema.org"}</script>
+{"@type":"WebPage","headline":"Materiaalien laittaminen GitHubiin","url":"http://localhost:4000/fi/omat-materiaalit/github.html","description":"About opendata-education","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="/assets/css/style.css?v=15641347925116e4184b92703bdd934207881fd6">
+  <link rel="stylesheet" href="/assets/css/style.css?v=7e8111772fb994ea4e3edc67223634f40636602c">
   <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
       <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -42,17 +42,25 @@
           
          
           
-            <h3><a href="/fi/avoin-data" >Avoin data</a></h3> <!--This comes from this repo's _data/docs.yml-->
-              
-          
-            <h3><a href="/fi/oppimisymparisto" >Jupyter Notebook -ympärstö</a></h3> <!--This comes from this repo's _data/docs.yml-->
-              
-          
             <h3><a href="/fi/materiaalit" >Materiaalit</a></h3> <!--This comes from this repo's _data/docs.yml-->
               
           
-            <h3><a href="/fi/omat-materiaalit"  class="current" >Oman materiaalin tekeminen</a></h3> <!--This comes from this repo's _data/docs.yml-->
+            <h3><a href="/fi/data/avoin-data" >Avoin data</a></h3> <!--This comes from this repo's _data/docs.yml-->
               
+          
+            <h3><a href="/fi/jupyter/jupyter" >Jupyter Notebook -ympäristö</a></h3> <!--This comes from this repo's _data/docs.yml-->
+              
+          
+            <h3><a href="/fi/omat-materiaalit/omat-materiaalit" >Oman materiaalin tekeminen</a></h3> <!--This comes from this repo's _data/docs.yml-->
+              
+                
+                  <h4 class="subnav"><a href="/fi/omat-materiaalit/notebookien-luominen" >Notebookien luominen</a></h4> 
+                
+                  <h4 class="subnav"><a href="/fi/omat-materiaalit/github"  class="current" >GitHub</a></h4> 
+                
+                  <h4 class="subnav"><a href="/fi/omat-materiaalit/mybinder" >MyBinder</a></h4> 
+                
+                  <h4 class="subnav"><a href="/fi/omat-materiaalit/jupyterbook" >Jupyter Book</a></h4> 
                 
               
           
@@ -68,23 +76,7 @@
       </div>
       <section id="content">
 
-      <h1 id="omien-materiaalien-laatiminen">Omien materiaalien laatiminen</h1>
-
-<p>Notebookit ovat helppokäyttöisiä työkaluja: pohjimmiltaan muistio koostuu soluista, joille voi valita joko teksti- tai koodistatuksen. Näitä lisäämällä ja muotoilemalla voi kirjoittaa omia materiaalipohjiaan ties minkä aineistojen analysointiin.</p>
-
-<p>Jupyter Notebookien perusilme näyttää tältä (MyBinderissa on natiivina sama):</p>
-
-<p><img src="/assets/img/NBesim.png" alt="NB" /></p>
-
-<p>Soluja pääsee muokkaamaan kaksoisklikkaamalla ja niiden sisällön ajaminen ytimen kautta onnistuu joko työkalurivin <strong>“Run”</strong>-painikkeesta tai suoraan näppäimistöltä painamalla <strong>Ctrl+Enter</strong>. Jos solu on valittu, sen ympärillä on sininen reunus, joka muuttuu vihreäksi muokkaustilassa.</p>
-
-<p>Työkalurivin <strong>“Help”</strong>-valikosta (tai painamalla <strong>“h”</strong> ilman soluvalintaa) löytyy lista pikanäppäimistä.</p>
-
-<p>Solujen vasemmalla puolella näkyvissä sulkeissa on järjestysnumero, joka kertoo missä vaiheessa kyseinen solu on ajettu. Mikäli siinä näkyy tähti (<strong>*</strong>), solua ajetaan yhä. Joskus ajo kestää pitkään, esimerkiksi animaatioita tai isoja latauksia tehdessä, mutta jos näin ei pitäisi olla kyseisessä koodissa on todennäköisesti loppumaton silmukka joka pitää keskeyttää <strong>“Kernel”</strong>-valikon kautta keskeyttämällä ajo <strong>“Interrupt”</strong>-käskyllä.</p>
-
-<p>Välillä voi myös käydä niin, että ytimeen on jäänyt sotkuinen muuttuja joka aiheuttaa virheitä myöhemmissä komennoissa. Tällöin voi olla aiheellista ajaa määrittelevät solut uudelleen tai tyhjentää kaikki <strong>“Kernel”</strong>-valikon <strong>“Restart”</strong>-käskyillä (joilla voi myös pyyhkiä aiemmat tulokset tai ajaa alusta lähtien koko muistion kerralla yksittäisten solujen napsuttelun sijaan). Ytimen uudelleenkäynnistys tai keskeytys ei vaikuta millään tapaa muistion muotoiluun tehtyihin toimiin, vain kullakin hetkellä muistissa oleviin tuloksiin, muuttujiin ja vastaaviin olioihin.</p>
-
-<h2 id="github">GitHub</h2>
+      <h1 id="materiaalien-laittaminen-githubiin">Materiaalien laittaminen GitHubiin</h1>
 
 <p>Itse tehtyjen Notebookien jakaminen opiskelijoille onnistuu kätevästi esimerkiksi tallentamalle ne <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/">GitHubiin</a>, kuten materiaalipankkimme demomateriaalit. Tällä sivulla opastamme GitHubiin rekisteröitymisessä ja alkuun pääsemisessä.</p>
 
@@ -102,7 +94,7 @@
 
 <p><img src="/assets/img/github-new-repo.png" alt="GitHub uusi repositorio" /></p>
 
-<p>Luodessasi repositoriota sen omistajana näkyy käyttäjänimi, jolla olet kirjautunut GitHubiin (esimerkkikuvassa <em>exmpl1</em>). Voit valita repositroirolle kuvaavan nimen ja päättää, onko projektisi julkinen vai yksityinen. Jos tarkoituksenasi on jakaa materiaaleja esimerkiksi oppitunneilla, simppeleintä on tehdä repositoriosta julkinen. Tämän lisäksi kannattaa lisätä repositorioon README-tiedosto, jonka sisältö näkyy repositoriosi aloitussivulla ja jonne voit kirjoittaa ohjeita repositorion käyttäjälle. Jos haluat, että muut voivat muokata ja soveltaa avoimia materiaalejasi, kannataa perehtyä repositorioiden <a rel="nofollow noopener noreferrer" target="_blank" href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository">lisensointiin</a>. Oletuksena GitHubiin ilman erillistä lisenssiä tallennettu materiaali on suojattu tekijänoikeuksin.</p>
+<p>Luodessasi repositoriota sen omistajana näkyy käyttäjänimi, jolla olet kirjautunut GitHubiin (esimerkkikuvassa <em>exmpl1</em>). Voit valita repositoriolle kuvaavan nimen ja päättää, onko projektisi julkinen vai yksityinen. Jos tarkoituksenasi on jakaa materiaaleja esimerkiksi oppitunneilla, simppeleintä on tehdä repositoriosta julkinen. Tämän lisäksi kannattaa lisätä repositorioon README-tiedosto, jonka sisältö näkyy repositoriosi aloitussivulla ja jonne voit kirjoittaa ohjeita repositorion käyttäjälle. Jos haluat, että muut voivat muokata ja soveltaa avoimia materiaalejasi, kannataa perehtyä repositorioiden <a rel="nofollow noopener noreferrer" target="_blank" href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository">lisensointiin</a>. Oletuksena GitHubiin ilman erillistä lisenssiä tallennettu materiaali on suojattu tekijänoikeuksin.</p>
 
 <p><img src="/assets/img/github-create-new-repo.png" alt="GitHub repositorion luominen" /></p>
 
@@ -114,17 +106,13 @@
 
 <p>Sitten vain luomaan Jupyter Notebookeja GitHubiin jaettavaksi!</p>
 
-<h2 id="oman-jupyter-bookin-tekeminen">Oman Jupyter Bookin tekeminen</h2>
-
-<p>Jos haluat kokeilla oman Jupyter Bookin tekemistä, seuraa virallista ohjetta osoitteessa <a rel="nofollow noopener noreferrer" target="_blank" href="https://jupyterbook.org/start/overview.html">https://jupyterbook.org/start/overview.html</a>.</p>
-
 
       </section>
     </div>
     <footer id="content-footer">
       <p><small>Toteutettu Opetushallituksen valtionavustuksella tiedekasvatuksen edistämiseen.<br/>
         Tämän sivuston materiaali on käytettävissä seuraavalla lisenssillä: <a rel="license nofollow noopener noreferrer" target="_blank" href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>.</small></p>
-      <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://www.hip.fi/"><img class="center" src="../assets/img/HIP-horizontal.png" alt="Helsinki Institute of Physics logo" height="50px"/></a></p>
+      <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://www.hip.fi/"><img class="center" src="/assets/img/HIP-horizontal.png" alt="Helsinki Institute of Physics logo" height="50px"/></a></p>
     </footer>
     <script src="/assets/js/scale.fix.js"></script>
     

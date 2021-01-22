@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>test | Avoin data opetuskäyttöön - näillä ohjeilla alkuun!</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="test" />
+<meta property="og:locale" content="fi" />
+<meta name="description" content="About opendata-education" />
+<meta property="og:description" content="About opendata-education" />
+<link rel="canonical" href="http://localhost:4000/fi/jupyter/jupyter-aloitus.html" />
+<meta property="og:url" content="http://localhost:4000/fi/jupyter/jupyter-aloitus.html" />
+<meta property="og:site_name" content="Avoin data opetuskäyttöön - näillä ohjeilla alkuun!" />
+<script type="application/ld+json">
+{"@type":"WebPage","headline":"test","url":"http://localhost:4000/fi/jupyter/jupyter-aloitus.html","description":"About opendata-education","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/style.css?v=7e8111772fb994ea4e3edc67223634f40636602c">
+  <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
+      <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <![endif]-->
+  </head>
+  <body id ="body">
+    <div class="lang">
+      <ul>
+        
+        
+      </ul>
+    </div>
+    <div id="wrapper">
+      <div id="sidebar">
+        <header id ="header">
+            <h1><a href="/">Avoin data opetuksessa</a></h1>
+          
+          
+         
+          
+            <h3><a href="/fi/materiaalit" >Materiaalit</a></h3> <!--This comes from this repo's _data/docs.yml-->
+              
+          
+            <h3><a href="/fi/data/avoin-data" >Avoin data</a></h3> <!--This comes from this repo's _data/docs.yml-->
+              
+          
+            <h3><a href="/fi/jupyter/jupyter" >Jupyter Notebook -ympäristö</a></h3> <!--This comes from this repo's _data/docs.yml-->
+              
+                
+                  <h4 class="subnav"><a href="/fi/jupyter/jupyter-aloitus"  class="current" >Notebookien käyttö</a></h4> 
+                
+                  <h4 class="subnav"><a href="/fi/jupyter/python" >Python-ohjelmointi</a></h4> 
+                
+              
+          
+            <h3><a href="/fi/omat-materiaalit/omat-materiaalit" >Oman materiaalin tekeminen</a></h3> <!--This comes from this repo's _data/docs.yml-->
+              
+          
+            <h3><a href="/fi/osallistu" >Osallistu kehitystyöhön</a></h3> <!--This comes from this repo's _data/docs.yml-->
+              
+          
+        </header>
+      <footer id="nav-footer">
+        <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/opendata-education"><img id="gh-logo" src="/assets/img/GitHub-Mark-32px.png" width="20" height="20" alt="GitHub logo"></a>
+          <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/opendata-education">Materiaalit GitHubissa</a></p>
+        <p><small>Ota yhteyttä tai kysy apua: <br> <a href="mailto:apua-avoin-data@cern.ch">apua-avoin-data@cern.ch</a></small></p>
+      </footer>  
+      </div>
+      <section id="content">
+
+      <h1 id="näin-käytät-notebookeja">Näin käytät notebookeja</h1>
+
+<p>Tällä sivulla on lyhyet ohjeet, joilla pääset alkuun Jupyter notebookien kanssa.</p>
+
+<p>Jupyter notebookit koostuvat teksti- eli Markdown-soluista ja koodisoluista.
+Soluja voidaan muokata tai ajaa (run), jolloin tekstisolun tapauksessa Markdown-soluun kirjoitettu teksti muuttuu siistimpään muotoon tai koodisolun tapauksessa soluun kirjoitettu koodi suoritetaan.</p>
+
+<p>Markdown-solua voidaan muokata ainoastaan muokkaustilassa, johon päästään kaksoisklikkaamalla solua.
+Soluun voidaan huoletta kirjoittaa tekstiä aivan tavallisesti.
+Jos haluat lisäksi käyttää esimerkiksi otsikoita, linkkejä ja kuvia yms., katso apua osoitteesta <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</a></p>
+
+<p>Koodisoluihin voidaan kirjoittaa koodia notebookissa käytössä olevalla kielellä (näissä harjoitteissa kielenä on Python).
+Katso esimerkki alla olevasta kuvasta.</p>
+
+<p><img src="/assets/img/jupyter-cell-example.png" alt="" /></p>
+
+<h2 id="työkalut-notebookissa">Työkalut notebookissa</h2>
+
+<p><img src="/assets/img/jupyter-tools-example.png" alt="" /></p>
+
+<p>Soluja pääsee muokkaamaan kaksoisklikkaamalla solua ja solun sisällön ajaminen onnistuu joko työkalurivin <strong>“Run”</strong>-painikkeesta tai suoraan näppäimistöltä painamalla <strong>Ctrl+Enter</strong>. Jos solu on valittu, sen ympärillä on sininen reunus, joka muuttuu vihreäksi muokkaustilassa.</p>
+
+<p>Työkalurivin <strong>“Help”</strong>-valikosta (tai painamalla <strong>“h”</strong> ilman soluvalintaa) löytyy lista pikanäppäimistä.</p>
+
+<p>Solujen vasemmalla puolella näkyvissä sulkeissa on järjestysnumero, joka kertoo missä vaiheessa kyseinen solu on ajettu. Mikäli siinä näkyy tähti (<strong>*</strong>), solua ajetaan yhä. Joskus ajo kestää pitkään, esimerkiksi animaatioita tai isoja latauksia tehdessä. Joskus koodiin on voinut eksyä esimerkiksi loppumaton silmukka joka pitää keskeyttää <strong>“Kernel”</strong>-valikon kautta keskeyttämällä ajo <strong>“Interrupt”</strong>-käskyllä.</p>
+
+<p>Välillä voi myös käydä niin, että ytimeen on jäänyt sotkuinen muuttuja joka aiheuttaa virheitä myöhemmissä komennoissa. Tällöin voi olla aiheellista ajaa määrittelevät solut uudelleen tai tyhjentää kaikki <strong>“Kernel”</strong>-valikon <strong>“Restart”</strong>-käskyillä (joilla voi myös pyyhkiä aiemmat tulokset tai ajaa alusta lähtien koko muistion kerralla yksittäisten solujen napsuttelun sijaan). Ytimen uudelleenkäynnistys tai keskeytys ei vaikuta millään tapaa muistion solujen sisältöön, vaan ainoastaan kullakin hetkellä muistissa oleviin tuloksiin, muuttujiin ja vastaaviin olioihin.</p>
+
+<p>Lisäinformaatiota:</p>
+
+<ul>
+  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://jupyter.org/">https://jupyter.org/</a></li>
+  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://jupyter-notebook.readthedocs.io/en/stable/">https://jupyter-notebook.readthedocs.io/en/stable/</a></li>
+</ul>
+
+
+      </section>
+    </div>
+    <footer id="content-footer">
+      <p><small>Toteutettu Opetushallituksen valtionavustuksella tiedekasvatuksen edistämiseen.<br/>
+        Tämän sivuston materiaali on käytettävissä seuraavalla lisenssillä: <a rel="license nofollow noopener noreferrer" target="_blank" href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>.</small></p>
+      <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://www.hip.fi/"><img class="center" src="/assets/img/HIP-horizontal.png" alt="Helsinki Institute of Physics logo" height="50px"/></a></p>
+    </footer>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>
