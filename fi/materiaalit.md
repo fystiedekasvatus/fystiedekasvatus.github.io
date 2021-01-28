@@ -17,6 +17,9 @@ Suomenkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
 - [Biologia](https://opendata-education.github.io/Biologia)
 - [Maantiede](https://opendata-education.github.io/Maantiede)
 
+Lisäksi materiaalia ja ohjeita erityisesti **hiukkasfysiikkaan** liittyen löydät täältä:
+- [https://avoin-data-opas.github.io/](https://avoin-data-opas.github.io/)
+
 ## Englanninkieliset materiaalit
 
 Englanninkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
