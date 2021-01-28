@@ -5,7 +5,7 @@ fi:
   - page: Avoin data
     url: /fi/data/avoin-data.html
     subfolderitems:
-    - page: Avoin data linkkejä
+    - page: Avoin data -linkkejä
       url: /fi/data/linkkeja.html
 
   - page: Jupyter Notebook -ympäristö
