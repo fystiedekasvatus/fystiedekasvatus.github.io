@@ -5,12 +5,16 @@ fi:
   - page: Avoin data
     url: /fi/data/avoin-data.html
     subfolderitems:
+    - page: Avoin data
+      url: /fi/data/avoin-data.html
     - page: Avoin data -linkkejä
       url: /fi/data/linkkeja.html
 
   - page: Jupyter Notebook -ympäristö
     url: /fi/jupyter/jupyter.html
     subfolderitems:
+    - page: Jupyter Notebook -ympäristö
+      url: /fi/jupyter/jupyter.html
     - page: Notebookien käyttö
       url: /fi/jupyter/jupyter-aloitus.html
     - page: Python-ohjelmointi
@@ -19,6 +23,8 @@ fi:
   - page: Oman materiaalin tekeminen
     url: /fi/omat-materiaalit/omat-materiaalit.html
     subfolderitems:
+    - page: Oman materiaalin tekeminen
+      url: /fi/omat-materiaalit/omat-materiaalit.html
     - page: Notebookien luominen
       url: /fi/omat-materiaalit/notebookien-luominen.html
     - page: GitHub
