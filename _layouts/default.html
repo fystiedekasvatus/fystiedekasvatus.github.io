@@ -26,7 +26,11 @@
         <!-- Sidebar Holder -->
         <nav id="sidebar">
             <div class="sidebar-header">
+                {% if page.lang=='fi' %}
+                <h3><a  href="/index">{{ site.data.translations['site-title'][page.lang] }}</a></h3>
+                {% else %}
                 <h3><a  href="/{{ page.lang }}/index">{{ site.data.translations['site-title'][page.lang] }}</a></h3>
+                {% endif %}
             </div>
 
             <ul class="list-unstyled components">
