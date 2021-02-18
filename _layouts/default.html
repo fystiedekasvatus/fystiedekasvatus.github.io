@@ -33,16 +33,18 @@
                 <li>
                     {% for item in site.data.docs[page.lang] %}
                         {% if item.subfolderitems %}
-                        <a href="#{{item.page | replace: ' ', ''}}Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">{{ item.page }}</a>
-                        <ul class="collapse list-unstyled" id="{{item.page | replace: ' ', ''}}Submenu">
-                        {% for subitem in item.subfolderitems %}
                             <li>
-                            <a href="{{ subitem.url | remove: '.html' }}">{{ subitem.page }}</a>
+                            <a href="#{{item.page | replace: ' ', ''}}Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" id="test">{{ item.page }}</a>
                             </li>
-                        {% endfor %}
-                        </ul>
+                            <ul class="collapse list-unstyled" id="{{item.page | replace: ' ', ''}}Submenu">
+                                {% for subitem in item.subfolderitems %}
+                                    <li>
+                                        <a href="{{ subitem.url | remove: '.html' }}">{{ subitem.page }}</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
                         {% else %}
-                            <a href="{{ item.url | remove: '.html' }}">{{ item.page }}</a>
+                            <li><a href="{{ item.url | remove: '.html' }}">{{ item.page }}</a></li>
                         {% endif %}
                     {% endfor %}
                 </li>
@@ -65,7 +67,6 @@
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-
                     <button type="button" id="sidebarCollapse" class="navbar-btn">
                         <span></span>
                         <span></span>
@@ -73,32 +74,29 @@
                     </button>
                     {% assign pages=site.pages | where: "ref", page.ref | sort: 'lang' %}
                     {% if pages.size > 1 %}
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
-                    </button>
+                        <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-align-justify"></i>
+                        </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto">
-                            
-                            
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="nav navbar-nav ml-auto">           
                                 {% for page in pages %}
                                     <li class="nav-item active">
                                         <a href="{{ site.base-url }}{{ page.url | remove: '.html'}}" class="{{ page.lang }}"><img src="/assets/img/{{ page.lang }}.png" alt="{{ page.lang }}"/></a>
                                     </li>
                                 {% endfor %}
-                            
-                        </ul>
-                    </div>
+                            </ul>
+                        </div>
                     {% endif %}
                 </div>
             </nav>
             
             {{ content | replace: '<a href="http', '<a rel="nofollow noopener noreferrer" target="_blank" href="http' }}
 
-             <footer id="content-footer">
-              <p><small>{{ site.data.translations['opetushallitus'][page.lang] }}<br/>
+            <footer id="content-footer">
+                <p><small>{{ site.data.translations['opetushallitus'][page.lang] }}<br/>
                 {{ site.data.translations['lisenssi'][page.lang] }}: <a rel="license nofollow noopener noreferrer" target="_blank" href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>.</small></p>
-              <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://www.hip.fi/"><img class="center" src="/assets/img/HIP-horizontal.png" alt="Helsinki Institute of Physics logo" height="50px"/></a></p>
+                <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://www.hip.fi/"><img class="center" src="/assets/img/HIP-horizontal.png" alt="Helsinki Institute of Physics logo" height="50px"/></a></p>
             </footer>
         </div>
     </div>
@@ -111,6 +109,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
+        $(document).ready(function() {
+          $('li.active').removeClass('active');
+          $('a[href="' + location.pathname + '"]').closest('li').addClass('active'); 
+          $('a[href="' + location.pathname + '"]').closest('li').parent().collapse().show(); 
+        });
+
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
                 $('#sidebar').toggleClass('active');
