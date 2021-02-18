@@ -23,4 +23,4 @@ Voit nyt etsiä tiedostoistasi notebookin, jota haluat muokata, tai halutessasi 
 
 ![new](/assets/img/tree2.png)
 
-Luo mieleisesi notebook ja [tallenna se GitHubiin!](/fi/omat-materiaalit/github.html)
+Luo mieleisesi notebook ja [tallenna se GitHubiin!](/fi/omat-materiaalit/github)
