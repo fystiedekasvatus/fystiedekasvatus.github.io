@@ -31,53 +31,20 @@
 
             <ul class="list-unstyled components">
                 <li>
-                    <a href="/fi/materiaalit">Materiaalit</a>
-                    <a href="#dataSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Avoin data</a>
-                    <ul class="collapse list-unstyled" id="dataSubmenu">
-                        <li>
-                            <a href="/fi/data/avoin-data">Avoin data</a>
-                        </li>
-                        <li>
-                            <a href="/fi/data/linkkeja">Linkkejä</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#jupyterSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Jupyter Notebook</a>
-                    <ul class="collapse list-unstyled" id="jupyterSubmenu">
-                        <li>
-                            <a href="/fi/jupyter/jupyter">Jupyter Notebook -ympäristö</a>
-                        </li>
-                        <li>
-                            <a href="/fi/jupyter/jupyter-aloitus">Notebookien käyttö</a>
-                        </li>
-                        <li>
-                            <a href="/fi/jupyter/python">Python ohjelmointi</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#ownmaterialSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Oman materiaalin tekeminen</a>
-                    <ul class="collapse list-unstyled" id="ownmaterialSubmenu">
-                        <li>
-                            <a href="/fi/omat-materiaalit/omat-materiaalit">Omat materiaalit</a>
-                        </li>
-                        <li>
-                            <a href="/fi/omat-materiaalit/notebookien-luominen">Notebookien luominen</a>
-                        </li>
-                        <li>
-                            <a href="/fi/omat-materiaalit/github">GitHub</a>
-                        </li>
-                        <li>
-                            <a href="/fi/omat-materiaalit/mybinder">MyBinder</a>
-                        </li>
-                        <li>
-                            <a href="/fi/omat-materiaalit/jupyterbook">Jupyter Book</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="/fi/osallistu">Osallistu kehitystyöhön</a>
+                    {% for item in site.data.docs[page.lang] %}
+                        {% if item.subfolderitems %}
+                        <a href="#{{item.page | replace: ' ', ''}}Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">{{ item.page }}</a>
+                        <ul class="collapse list-unstyled" id="{{item.page | replace: ' ', ''}}Submenu">
+                        {% for subitem in item.subfolderitems %}
+                            <li>
+                            <a href="{{ subitem.url | remove: '.html' }}">{{ subitem.page }}</a>
+                            </li>
+                        {% endfor %}
+                        </ul>
+                        {% else %}
+                            <a href="{{ item.url | remove: '.html' }}">{{ item.page }}</a>
+                        {% endif %}
+                    {% endfor %}
                 </li>
             </ul>
 
@@ -134,9 +101,6 @@
               <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://www.hip.fi/"><img class="center" src="/assets/img/HIP-horizontal.png" alt="Helsinki Institute of Physics logo" height="50px"/></a></p>
             </footer>
         </div>
-
-
-
     </div>
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
@@ -154,6 +118,6 @@
             });
         });
     </script>
-</body>
 
+</body>
 </html>
