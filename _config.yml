@@ -20,6 +20,3 @@ defaults:
      values:
          lang: en
          base-url: "en/"
-
-plugins:
-  - jekyll-redirect-from
