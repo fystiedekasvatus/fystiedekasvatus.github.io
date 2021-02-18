@@ -3,11 +3,11 @@ url: "https://avoin-data-opas.github.io"
 defaults:
     -
      scope:
-         path: ""
+         path: "fi"
      values:
          layout: default
          lang: fi
-         base-url: ""
+         base-url: "fi/"
     -
      scope:
          path: "se"
@@ -20,3 +20,6 @@ defaults:
      values:
          lang: en
          base-url: "en/"
+         
+plugins:
+  - jekyll-redirect-from

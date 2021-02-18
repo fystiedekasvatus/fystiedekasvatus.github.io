@@ -38,5 +38,19 @@ fi:
     url: /fi/osallistu.html
 
 en:
+  - page: Materials
+    url: ""
+
+  - page: Open data
+    url: ""
+
+  - page: Jupyter Notebook -environment
+    url: ""
+
+  - page: Creating your own material
+    url: ""
+
+  - page: Contribute
+    url: ""
 
 se:

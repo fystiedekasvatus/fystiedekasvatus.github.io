@@ -26,7 +26,7 @@
         <!-- Sidebar Holder -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3><a  href="/index">{{ site.data.translations['site-title'][page.lang] }}</a></h3>
+                <h3><a  href="/{{ page.lang }}/index">{{ site.data.translations['site-title'][page.lang] }}</a></h3>
             </div>
 
             <ul class="list-unstyled components">
@@ -64,7 +64,6 @@
 
         <!-- Page Content Holder -->
         <div id="content">
-
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <button type="button" id="sidebarCollapse" class="navbar-btn">
@@ -72,18 +71,20 @@
                         <span></span>
                         <span></span>
                     </button>
-                    {% assign pages=site.pages | where: "ref", page.ref | sort: 'lang' %}
+                    {% assign pages=site.pages | where: "ref", page.ref | sort: site.data.sort['lang'][page.lang] %}
                     {% if pages.size > 1 %}
-                        <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <i class="fas fa-align-justify"></i>
+                        <button class="btn d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="flagButton">
+                            <img src="/assets/img/{{ page.lang }}.png" id="currentLang">
                         </button>
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="nav navbar-nav ml-auto">           
-                                {% for page in pages %}
+                                {% for pg in pages %}
+                                    {% if pg.lang != page.lang %}
                                     <li class="nav-item active">
-                                        <a href="{{ site.base-url }}{{ page.url | remove: '.html'}}" class="{{ page.lang }}"><img src="/assets/img/{{ page.lang }}.png" alt="{{ page.lang }}"/></a>
+                                        <a href="{{ site.base-url }}{{ pg.url | remove: '.html'}}" class="{{ pg.lang }}"><img src="/assets/img/{{ pg.lang }}.png" alt="{{ pg.lang }}"/></a>
                                     </li>
+                                    {% endif %}
                                 {% endfor %}
                             </ul>
                         </div>

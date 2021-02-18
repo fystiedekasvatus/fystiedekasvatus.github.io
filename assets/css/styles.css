@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
 }
 
 p {
@@ -40,15 +39,13 @@ ul.components a:hover{
     color: #000 !important;
 }
 
-
-
 .navbar {
     padding: 15px 10px;
-    background: #fff;
+    background: #fff !important;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    //box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-btn {
@@ -240,7 +237,17 @@ a.article, a.article:hover {
     #sidebarCollapse.active span:last-of-type {
         transform: rotate(-45deg) translate(1px, -1px);
     }
+}
 
+/* Aligns lang flags to right on small screen.
+*/
+#navbarSupportedContent {
+    text-align: right;
+}
+
+#flagButton {
+    color: #fff !important;
+    background-color: #fff !important;
 }
 
 #content-footer {
@@ -253,9 +260,8 @@ a.article, a.article:hover {
     padding: 5px;
 }
 
-.nav-item img {
+.nav-item img, #currentLang {
     box-shadow: 0px 2px 5px #888888;
-
 }
 
 img {
