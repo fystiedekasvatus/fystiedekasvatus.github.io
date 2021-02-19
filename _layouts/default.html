@@ -25,45 +25,47 @@
     <div class="wrapper">
         <!-- Sidebar Holder -->
         <nav id="sidebar">
-            <div class="sidebar-header">
-                {% if page.lang=='fi' %}
-                <h3><a  href="/index">{{ site.data.translations['site-title'][page.lang] }}</a></h3>
-                {% else %}
-                <h3><a  href="/{{ page.lang }}/index">{{ site.data.translations['site-title'][page.lang] }}</a></h3>
-                {% endif %}
+            <div class="sticky-top">
+                <div class="sidebar-header">
+                    {% if page.lang=='fi' %}
+                    <h3><a  href="/index">{{ site.data.translations['site-title'][page.lang] }}</a></h3>
+                    {% else %}
+                    <h3><a  href="/{{ page.lang }}/index">{{ site.data.translations['site-title'][page.lang] }}</a></h3>
+                    {% endif %}
+                </div>
+
+                <ul class="list-unstyled components">
+                    <li>
+                        {% for item in site.data.docs[page.lang] %}
+                            {% if item.subfolderitems %}
+                                <li>
+                                <a href="#{{item.page | replace: ' ', ''}}Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" id="test">{{ item.page }}</a>
+                                </li>
+                                <ul class="collapse list-unstyled" id="{{item.page | replace: ' ', ''}}Submenu">
+                                    {% for subitem in item.subfolderitems %}
+                                        <li>
+                                            <a href="{{ subitem.url | remove: '.html' }}">{{ subitem.page }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            {% else %}
+                                <li><a href="{{ item.url | remove: '.html' }}">{{ item.page }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                    </li>
+                </ul>
+
+                <ul class="list-unstyled CTAs">
+                    <li>
+                        <a class="download" rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/opendata-education"><img id="gh-logo" src="/assets/img/GitHub-Mark-32px.png" width="20" height="20" alt="GitHub logo"> {{ site.data.translations['materiaalipankki'][page.lang] }}</a>
+                    </li>
+                    <br>
+                    <a>{{ site.data.translations['contact'][page.lang] }}</a>
+                    <li>
+                        <a class="download" rel="nofollow noopener noreferrer" target="_blank" href="mailto:apua-avoin-data@cern.ch"><img id="gh-logo" src="/assets/img/envelope.svg" width="20" height="20" alt="email"> apua-avoin-data@cern.ch</a>
+                    </li>
+                </ul>
             </div>
-
-            <ul class="list-unstyled components">
-                <li>
-                    {% for item in site.data.docs[page.lang] %}
-                        {% if item.subfolderitems %}
-                            <li>
-                            <a href="#{{item.page | replace: ' ', ''}}Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" id="test">{{ item.page }}</a>
-                            </li>
-                            <ul class="collapse list-unstyled" id="{{item.page | replace: ' ', ''}}Submenu">
-                                {% for subitem in item.subfolderitems %}
-                                    <li>
-                                        <a href="{{ subitem.url | remove: '.html' }}">{{ subitem.page }}</a>
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                        {% else %}
-                            <li><a href="{{ item.url | remove: '.html' }}">{{ item.page }}</a></li>
-                        {% endif %}
-                    {% endfor %}
-                </li>
-            </ul>
-
-            <ul class="list-unstyled CTAs">
-                <li>
-                    <a class="download" rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/opendata-education"><img id="gh-logo" src="/assets/img/GitHub-Mark-32px.png" width="20" height="20" alt="GitHub logo"> {{ site.data.translations['materiaalipankki'][page.lang] }}</a>
-                </li>
-                <br>
-                <a>{{ site.data.translations['contact'][page.lang] }}</a>
-                <li>
-                    <a class="download" rel="nofollow noopener noreferrer" target="_blank" href="mailto:apua-avoin-data@cern.ch"><img id="gh-logo" src="/assets/img/envelope.svg" width="20" height="20" alt="email"> apua-avoin-data@cern.ch</a>
-                </li>
-            </ul>
         </nav>
 
         <!-- Page Content Holder -->
