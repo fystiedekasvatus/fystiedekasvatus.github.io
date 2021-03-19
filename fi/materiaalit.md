@@ -14,16 +14,17 @@ Jupyter Bookien hyviä puolia ovat mm. että niiden käyttöönotto on helppoa, 
 ## Suomenkieliset materiaalit
 
 Suomenkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
-- [Biologia](https://opendata-education.github.io/Biologia)
-- [Maantiede](https://opendata-education.github.io/Maantiede)
+- <a href="https://opendata-education.github.io/Biologia" target="_blank">Biologia</a>
+- <a href="https://opendata-education.github.io/Maantiede" target="_blank">Maantiede</a>
+- <a href="https://opendata-education.github.io/Matematiikka" target="_blank">Matematiikka</a>
 
 Lisäksi materiaalia ja ohjeita erityisesti **hiukkasfysiikkaan** liittyen löydät täältä:
-- [https://avoin-data-opas.github.io/](https://avoin-data-opas.github.io/)
+- <a href="https://avoin-data-opas.github.io/" target="_blank">https://avoin-data-opas.github.io/</a>
 
 ## Englanninkieliset materiaalit
 
 Englanninkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
-- [Languages](https://opendata-education.github.io/Languages)
+- <a href="https://opendata-education.github.io/Languages" target="_blank">Languages</a>
 
 ## Miten käytän materiaaleja?
 
