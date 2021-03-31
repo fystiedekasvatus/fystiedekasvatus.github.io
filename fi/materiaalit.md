@@ -30,6 +30,11 @@ Lisäksi laajemmin materiaalia ja ohjeita erityisesti **hiukkasfysiikkaan** liit
 Englanninkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
 - <a href="https://opendata-education.github.io/Languages" target="_blank">Languages</a>
 
+## Ruotsinkieliset materiaalit
+
+Ruotsinkielistä materiaalia erityisesti **hiukkasfysiikkaan** liittyen löydät täältä:
+- <a href="https://avoin-data-opas.github.io/" target="_blank">https://avoin-data-opas.github.io/se/</a>
+
 ## Miten käytän materiaaleja?
 
 Jupyter Bookeihin pääset kätevästi yllä olevista linkeistä.
