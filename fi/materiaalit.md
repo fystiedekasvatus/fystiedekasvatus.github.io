@@ -33,7 +33,7 @@ Englanninkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
 ## Ruotsinkieliset materiaalit
 
 Ruotsinkielistä materiaalia erityisesti **hiukkasfysiikkaan** liittyen löydät täältä:
-- <a href="https://avoin-data-opas.github.io/" target="_blank">https://avoin-data-opas.github.io/se/</a>
+- <a href="https://avoin-data-opas.github.io/se/" target="_blank">https://avoin-data-opas.github.io/se/</a>
 
 ## Miten käytän materiaaleja?
 
