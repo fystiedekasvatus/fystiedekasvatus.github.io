@@ -19,6 +19,6 @@ Näissä harjoitteissa käytämme Pythonia tehdessämme data-analyysiä, joten P
 Tutustu Pythoniin data-analyysissa alla olevasta linkistä.
 Linkki avautuu MyBinderin virtuaaliseen ympäristöön, jossa voit huoletta muokata notebookia myös itse.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opendata-education/opendata-education.github.io/HEAD?filepath=examples%2Fdata-analyysi_esimerkki.ipynb) [Datan lukeminen ja visualisoiminen Pythonilla](https://mybinder.org/v2/gh/opendata-education/opendata-education.github.io/HEAD?filepath=examples%2Fdata-analyysi_esimerkki.ipynb) 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opendata-education/Python-ja-Jupyter/main?urlpath=tree/materiaali/harjoitukset/data-analyysi_esimerkki.ipynb) [Datan lukeminen ja visualisoiminen Pythonilla](https://mybinder.org/v2/gh/opendata-education/Python-ja-Jupyter/main?urlpath=tree/materiaali/harjoitukset/data-analyysi_esimerkki.ipynb) 
 
 Jos Pythoniin haluaa tutustua syvemmin, voi aloittaa esimerkiksi osoitteesta [https://www.learnpython.org/](https://www.learnpython.org/).
