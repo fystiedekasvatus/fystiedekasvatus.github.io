@@ -26,6 +26,10 @@ Tässä listattuna joitakin sivustoja, joissa avointa dataa on saatavilla:
 
 - Valtavat määrät tutkimus- ja opetustason datasettejä. Valintatyökaluista voi etsiä näppärästi esim. koeaseman ja tiedostotyypin mukaan haluamiaan materiaaleja.
 
+**Zenodo** [https://zenodo.org/](https://zenodo.org/)
+
+- Monialainen avoimen tutkimusdatan hakemistopalvelu. Luotu ja ylläpidetty CERN:n ja OpenAIRE:n toimesta.
+
 **Our World in Data** [https://ourworldindata.org/](https://ourworldindata.org/)
 
 - Suuri varasto kaikenlaisiin aiheisiin sopivia kuvaajia ja linkkejä niiden aineistoihin, käytetty Suomessakin useissa uutiskanavissa.
