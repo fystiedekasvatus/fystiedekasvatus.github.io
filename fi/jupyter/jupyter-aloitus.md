@@ -9,7 +9,7 @@ category: jupyter
 
 Tällä sivulla on lyhyet ohjeet, joilla pääset alkuun Jupyter notebookien kanssa.
 
-Katso myös [Youtube-kanavamme](https://www.youtube.com/channel/UC2HOmLMQsq4EORZzncCyMIg), josta on mm. järjestämissämme koulutuksissa käytettyä materiaalia notebookien käytöstä.
+Katso myös [Youtube-kanavamme](https://www.youtube.com/channel/UC2HOmLMQsq4EORZzncCyMIg), joka sisältää mm. järjestämissämme koulutuksissa käytettyä materiaalia notebookien käytöstä.
 
 Jupyter notebookit koostuvat teksti- eli Markdown-soluista ja koodisoluista.
 Soluja voidaan muokata tai ajaa (run), jolloin tekstisolun tapauksessa Markdown-soluun kirjoitettu teksti muuttuu siistimpään muotoon tai koodisolun tapauksessa soluun kirjoitettu koodi suoritetaan. 
