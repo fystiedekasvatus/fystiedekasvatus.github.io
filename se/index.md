@@ -1,14 +1,14 @@
 ---
-title: Tervetuloa avoimen datan pariin!
+title: Välkommen att använda Open Data!
 lang: se
 ref: index
 ---
 
-# Tervetuloa avoimen datan pariin!
+# Välkommen att använda Open Data!
 
-Tämä on kokoelma lukio-opetukseen sopivia avointa autenttista dataa hyödyntäviä harjoitteita ohjelmointiin ja datankäsittelyyn perehtymiseksi.
-Harjoitteiden oppimisympäristönä käytetään interaktiivisia Jupyter Notebookeja, joissa voidaan esimerkiksi lukea, käsitellä ja visualisoida avointa dataa Python-ohjelmointia hyödyntäen. Aikaisempaa kokemusta notebookeista tai Pythonista ei tarvita materiaalin käyttämiseksi.
+Här hittar du en samling uppgifter med autentiska öppna data som lämpar sig för gymnasieelever som testar programmeringens och databehandlingens stig.
+Uppgifterna görs i interaktiva Jupyter Notebooks. Dessa ger en praktisk miljö, då de stöder python-programmering och tillåter den studerande att läsa och skriva uppgifter, samt visualisera statistik med hjälp av python. Detta material lämpar sig även för användare som saknar tidigare erfarenhet av Jupyter Notebook och Python.
 
-Materiaalia kehitetään [Fysiikan tutkimuslaitoksen](https://www.hip.fi) [Koulutoiminta ja avoin data](https://www.hip.fi/research/education-and-open-data/) -projektissa ja sen mahdollistaa [Opetushallituksen](https://www.oph.fi/) valtionavustus tiedekasvatuksen edistämiseen.
+Materialet utvecklas genom [Fysiikan tutkimuslaitos'](https://www.hip.fi) projekt [Open Data i undervisningen](https://www.hip.fi/research/education-and-open-data/) och möjliggörs genom understöd av [Utbildningsstyrelsen](https://www.oph.fi/).
 
-Järjestämme koulutusta opettajille avoimen datan käytössä opetuksessa. Viimeksi koulutimme Rovaniemellä (katso [ohjelma](https://indico.cern.ch/event/797901/)) ja seuraava koulutus järjestetään kunhan ajat sen sallivat. Kehitämme paraikaa ohjeistusta materiaalin helppoon ja nopeaan käyttöönottoon.
+Vi arrangerar fortbildning i användning av öppna data i undervisningen för lärare. Den senaste kursen ordnades i Rovaniemi ([program](https://indico.cern.ch/event/797901/)) och nästa ordnas när tiden tillåter. Under tiden utvecklar vi material och anvisningar för lärokursen.
