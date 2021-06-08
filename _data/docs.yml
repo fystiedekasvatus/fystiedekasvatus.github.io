@@ -54,3 +54,40 @@ en:
     url: ""
 
 se:
+  - page: Material
+    url: /se/materiaalit.html
+  
+  - page: Open Data
+    url: /se/data/avoin-data.html
+    subfolderitems:
+    - page: Open Data
+      url: /se/data/avoin-data.html
+    - page: Open Data-länkar
+      url: /se/data/linkkeja.html
+
+  - page: Jupyter Notebook-miljön
+    url: /se/jupyter/jupyter.html
+    subfolderitems:
+    - page: Jupyter Notebook-miljön
+      url: /se/jupyter/jupyter.html
+    - page: Att använda notebooks
+      url: /se/jupyter/jupyter-aloitus.html
+    - page: Python-programmering
+      url: /se/jupyter/python.html
+   
+  - page: Att skapa material
+    url: /se/omat-materiaalit/omat-materiaalit.html
+    subfolderitems:
+    - page: Att skapa material
+      url: /se/omat-materiaalit/omat-materiaalit.html
+    - page: Att skapa en Notebook
+      url: /se/omat-materiaalit/notebookien-luominen.html
+    - page: GitHub
+      url: /se/omat-materiaalit/github.html
+    - page: MyBinder
+      url: /se/omat-materiaalit/mybinder.html
+    - page: Jupyter Book
+      url: /se/omat-materiaalit/jupyterbook.html
+
+  - page: Delta i utvecklingsarbetet
+    url: /se/osallistu.html
