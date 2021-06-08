@@ -1,18 +1,24 @@
 site-title:
   fi: "Avoin data opetuksessa"
+  se: "Open Data i undervisningen"
   en: "Open data in education"
 contact:
   fi: "Ota yhteyttä tai kysy apua"
+  se: "Ta kontakt / Be om hjälp"
   en: "Contact and help"
 opetushallitus:
   fi: "Toteutettu Opetushallituksen valtionavustuksella tiedekasvatuksen edistämiseen."
+  se: "Projektet möjliggörs fenom understöd av utbildningsstyrelsen"
   en: "Created with the funding of Finnish National Agency for Education Services."
 lisenssi:
   fi: "Tämän sivuston materiaali on käytettävissä seuraavalla lisenssillä"
+  se: "Materialet på denna sida kan användas med följande licens"
   en: "The material on this site is available for use with the following license"
 materiaalipankki:
   fi: "Materiaalit GitHubissa"
+  se: "Material på GitHub"
   en: "Materials on GitHub"
 youtube-kanava:
   fi: "YouTube-kanava"
+  se: "Youtube-kanal"
   en: "YouTube channel"
