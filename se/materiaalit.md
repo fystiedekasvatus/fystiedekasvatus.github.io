@@ -12,6 +12,15 @@ Jupyter Books är i praktiken prydliga dokument eller "böcker" som består av M
 Fördelar med Jupyter Books är bland annat att de är lätta att börja använda, man kan köra koden på förhand så att resultaten syns direkt när någor öppnar den,
 och det är smidigt att öppna och editera en notebook i webbapplikationen MyBinder om man inte har de rötta programmen på sin dator.
 
+## Svenskspråkigt material
+
+En samling svenskspråkigt material hittas här:
+- <a href="avoin-data-opas.github.io/se/" target="_blank">https://github.com/avoin-data-opas/avoin-data-opas.github.io/tree/master/se/</a>
+
+Ämnesspecifika material är under utveckling. Dessa ämnen finns för tillfället:
+- <a href="https://opendata-education.github.io/se_Matematik/intro.html" target="_blank">Matematik</a>
+
+
 ## Suomenkieliset materiaalit
 
 Perusteita Python-ohjlemointiin ja data-analyysiin Jupyter-ympäristössä.
@@ -31,11 +40,6 @@ Lisäksi laajemmin materiaalia ja ohjeita erityisesti **hiukkasfysiikkaan** liit
 
 English versions of some of the files canbe found here:
 - <a href="https://opendata-education.github.io/Languages" target="_blank">Languages</a>
-
-## Svenskspråkigt material
-
-En samling svenskspråkigt material hittas här:
-- <a href="avoin-data-opas.github.io/se/" target="_blank">https://github.com/avoin-data-opas/avoin-data-opas.github.io/tree/master/se/</a>
 
 ## Hur används materialet?
 
