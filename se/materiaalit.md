@@ -19,6 +19,7 @@ En samling svenskspråkigt material hittas här:
 
 Ämnesspecifika material är under utveckling. Dessa ämnen finns för tillfället:
 - <a href="https://opendata-education.github.io/se_Matematik/intro.html" target="_blank">Matematik</a>
+- <a href="https://opendata-education.github.io/se_Fysik/intro.html" target="_blank">Fysik</a>
 
 
 ## Suomenkieliset materiaalit
