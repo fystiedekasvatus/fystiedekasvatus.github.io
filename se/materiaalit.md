@@ -14,12 +14,15 @@ och det är smidigt att öppna och editera en notebook i webbapplikationen MyBin
 
 ## Svenskspråkigt material
 
-En samling svenskspråkigt material hittas här:
-- <a href="avoin-data-opas.github.io/se/" target="_blank">https://github.com/avoin-data-opas/avoin-data-opas.github.io/tree/master/se/</a>
-
-Ämnesspecifika material är under utveckling. Dessa ämnen finns för tillfället:
+Det svenskspråkiga materialet är för tillfället anpassat för dessa ämnen:
 - <a href="https://opendata-education.github.io/se_Matematik/intro.html" target="_blank">Matematik</a>
 - <a href="https://opendata-education.github.io/se_Fysik/intro.html" target="_blank">Fysik</a>
+- <a href="https://opendata-education.github.io/se_Geografi/intro.html" target="_blank">Geografi</a>
+- <a href="https://opendata-education.github.io/se_Halsokunskap/intro.html" target="_blank">Hälsokunskap</a>
+- <a href="https://opendata-education.github.io/se_Biologi/intro.html" target="_blank">Biologi</a>
+
+Mer av vårt svenskspråkiga material, inklusive mer ingående beskrivningar av vad Jypyter och Python är kapabla till, hittas här:
+- <a href="avoin-data-opas.github.io/se/" target="_blank">https://github.com/avoin-data-opas/avoin-data-opas.github.io/tree/master/se/</a>
 
 
 ## Suomenkieliset materiaalit
@@ -39,7 +42,7 @@ Lisäksi laajemmin materiaalia ja ohjeita erityisesti **hiukkasfysiikkaan** liit
 ## Materials in English
 
 
-English versions of some of the files canbe found here:
+English versions of some of the files can be found here:
 - <a href="https://opendata-education.github.io/Languages" target="_blank">Languages</a>
 
 ## Hur används materialet?
