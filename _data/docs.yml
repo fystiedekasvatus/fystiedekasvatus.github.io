@@ -39,19 +39,43 @@ fi:
 
 en:
   - page: Materials
-    url: ""
+    url: /fi/materiaalit.html
 
-  - page: Open data
-    url: ""
+  - page: Open Data
+    url: /en/data/avoin-data.html
+    subfolderitems:
+    - page: Open Data
+      url: /en/data/avoin-data.html
+    - page: Links to Open Data
+      url: /en/data/linkkeja.html
 
-  - page: Jupyter Notebook -environment
-    url: ""
+
+  - page: Jupyter Notebook Environment
+    url: /en/jupyter/jupyter.html
+    subfolderitems:
+    - page: Jupyter Notebook Environment
+      url: /en/jupyter/jupyter.html
+    - page: How to Use a Notebook
+      url: /en/jupyter/jupyter-aloitus.html
+    - page: Python Programming
+      url: /en/jupyter/python.html
 
   - page: Creating your own material
-    url: ""
+    url: /en/omat-materiaalit/omat-materiaalit.html
+    subfolderitems:
+    - page: Creating your own material
+      url: /en/omat-materiaalit/omat-materiaalit.html
+    - page: Creating and editing your own notebooks
+      url: /en/omat-materiaalit/notebookien-luominen.html
+    - page: Uploading Material to GitHub
+      url: /en/omat-materiaalit/github.html
+    - page: Sharing Materials with MyBinder
+      url: /en/omat-materiaalit/mybinder.html
+    - page: Making your own Jupyter Book
+      url: /en/omat-materiaalit/jupyterbook.html
 
-  - page: Contribute
-    url: ""
+  - page: Participate in the Development Work
+    url: /en/osallistu.html
 
 se:
   - page: Material
