@@ -11,7 +11,7 @@ The developed materials are roughly divided by language, subject, and level. The
 ## Materials in English
 
 English versions of the files can be found here:
-- <a href="https://opendata-education.github.io/Languages" target="_blank">Languages</a> **(correct link?)**
+- <a href="https://opendata-education.github.io/Languages" target="_blank">Languages</a> 
 
 ## Materials in Swedish
 
