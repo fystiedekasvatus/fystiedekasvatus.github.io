@@ -15,7 +15,7 @@ English versions of the files can be found here:
 
 ## Materials in Swedish
 
-The currently available Swedish material has been written for these subjects:
+Material in Swedish can currently be found on the following topics:
 - <a href="https://opendata-education.github.io/se_Matematik/intro.html" target="_blank">Matematik</a>
 - <a href="https://opendata-education.github.io/se_Fysik/intro.html" target="_blank">Fysik</a>
 - <a href="https://opendata-education.github.io/se_Geografi/intro.html" target="_blank">Geografi</a>
