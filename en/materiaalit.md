@@ -15,12 +15,12 @@ English versions of the files can be found here:
 
 ## Materials in Swedish
 
-A collection of Swedish-language materials can be found here:
-- <a href="avoin-data-opas.github.io/se/" target="_blank">https://github.com/avoin-data-opas/avoin-data-opas.github.io/tree/master/se/</a>
-
-Subject-specific materials are under development. These topics are currently available:
-- <a href="https://opendata-education.github.io/se_Matematik/intro.html" target="_blank">Mathematics</a>
-- <a href="https://opendata-education.github.io/se_Fysik/intro.html" target="_blank">Physics</a>
+The currently available Swedish material has been written for these subjects:
+- <a href="https://opendata-education.github.io/se_Matematik/intro.html" target="_blank">Matematik</a>
+- <a href="https://opendata-education.github.io/se_Fysik/intro.html" target="_blank">Fysik</a>
+- <a href="https://opendata-education.github.io/se_Geografi/intro.html" target="_blank">Geografi</a>
+- <a href="https://opendata-education.github.io/se_Halsokunskap/intro.html" target="_blank">Hälsokunskap</a>
+- <a href="https://opendata-education.github.io/se_Biologi/intro.html" target="_blank">Biologi</a>
 
 
 ## Materials in Finnish
