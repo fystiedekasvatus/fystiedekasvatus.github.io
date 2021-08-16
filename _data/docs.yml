@@ -39,7 +39,7 @@ fi:
 
 en:
   - page: Materials
-    url: /fi/materiaalit.html
+    url: /en/materiaalit.html
 
   - page: Open Data
     url: /en/data/avoin-data.html
