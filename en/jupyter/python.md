@@ -17,7 +17,6 @@ A good thing to keep in mind when learning programming is that for every problem
 
 In these exercises, we use Python to do data analysis. We will therefore get acquainted with Python from that point of view. Below you will find a link to a document with instructions for data analysis in Python. The link opens the document in MyBinder's virtual environment, where you can also change the Notebook and run tests yourself.
 
-**file path: ...\cms-jupyter-materials-english\Introduction-to-jupyter\Guide-to-using-Python.ipynb ???**
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opendata-education/Python-ja-Jupyter/main?urlpath=tree/materiaali/harjoitukset/data-analyysi_esimerkki.ipynb) [Reading and visualizing data in Python](https://mybinder.org/v2/gh/opendata-education/Python-ja-Jupyter/main?urlpath=tree/materiaali/harjoitukset/data-analyysi_esimerkki.ipynb) 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-english/master?filepath=Introduction-to-jupyter%2FGuide-to-using-Python.ipynb) [Reading and visualizing data in Python](https://mybinder.org/v2/gh/cms-opendata-education/cms-jupyter-materials-english/master?filepath=Introduction-to-jupyter%2FGuide-to-using-Python.ipynb) 
 
 If you want to learn more about Python, you can start at [https://www.learnpython.org/](https://www.learnpython.org/).
