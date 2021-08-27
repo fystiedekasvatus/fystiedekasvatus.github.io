@@ -12,6 +12,7 @@ The developed materials are roughly divided by language, subject, and level. The
 
 English versions of the files can be found here:
 - <a href="https://opendata-education.github.io/Languages" target="_blank">Text Analysis</a> 
+- <a href="https://opendata-education.github.io/en_Physics/intro.html" target="_blank">Particle Physics</a> 
 
 ## Materials in Swedish
 
