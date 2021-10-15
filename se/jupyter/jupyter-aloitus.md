@@ -15,17 +15,11 @@ som innehåller material som vi använt i tidigare fortbildningskurser.
 Jupyter Notebooks består av texceller (Markdown) och kodceller (Code).
 Cellerna kan ändras och "köras" (run). När man kör en textcell blir den till prydlig artikeltext, 
 som formateras enligt HTML-tolken Markdown. När man kör en kodcell verkställs koden, och celler skriver ut
-kodens output.
+kodens output. På bilden nedan syns några trick som Markdown erbjuder, och fler hittas på adressen [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-För att öppna en markdown-cell i ändringsläge kan man dubbelklicka den.
-Man kan skriva vanlig text dit, och den ser prydlig ut. Man kan också enkelt lägga till rubriker, länkar,
-bilder, tabeller etc. Instruktioner för det hittas på adressen [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+img src=/assets/img/exempel-notebook.png width=60%>
 
 I kodcellerna kan man skriva kod i Notebookens valda programmeringsspråk. Alla våra övningar använder Python.
-Se exempel på bilden nedan.
-
-![](/assets/img/exempel-notebook.png)
-<img src=/assets/img/exempel-notebook.png width=80%>
 
 ## Verktyg i Notebook
 
