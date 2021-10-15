@@ -21,4 +21,4 @@ börja skapa sitt eget material i Notebook-format.
 
 Jupyter Notebooks är av dokumenttypen .ipynb (IPython Notebook), men går också att spara som .pdf eller .html
 för att förevisas. Filformatet fungerar med alla de vanligaste programmeringsspråken, men man väljer en
-kärna (kernel) enligt vilket programmeringsspråk man tänker använda. I våra samtliga exempel används Python3 som programmeringsspråk.
+kärna (kernel) enligt vilket programmeringsspråk man tänker använda. I samtliga våra exempel används Python3 som programmeringsspråk.
