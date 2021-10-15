@@ -7,7 +7,7 @@ category: jupyter
 
 # Jupyter Notebook-miljön
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" alt="jupyter" width="40%" class="center"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" alt="jupyter" width="10%" class="center"/>
 
 Jupyter Notebook är ett open source-verktyg, som har sitt ursprung i IPython som en del av
 [Project Jupyter](https://jupyter.org/) år 2014. Notebooks är interaktiva miljöer,
