@@ -18,6 +18,7 @@ som formateras enligt HTML-tolken Markdown. När man kör en kodcell verkställs
 kodens output. På bilden nedan syns några trick som Markdown erbjuder, och fler hittas på adressen [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 <img src="https://raw.githubusercontent.com/opendata-education/opendata-education.github.io/master/assets/img/exempel-notebook.png" width=60%>
+![](https://raw.githubusercontent.com/opendata-education/opendata-education.github.io/master/assets/img/exempel-notebook.png)
 
 I kodcellerna kan man skriva kod i Notebookens valda programmeringsspråk. Alla våra övningar använder Python.
 
