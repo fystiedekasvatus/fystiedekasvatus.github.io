@@ -17,7 +17,7 @@ Cellerna kan ändras och "köras" (run). När man kör en textcell blir den till
 som formateras enligt HTML-tolken Markdown. När man kör en kodcell verkställs koden, och celler skriver ut
 kodens output. På bilden nedan syns några trick som Markdown erbjuder, och fler hittas på adressen [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-<img src=/assets/img/exempel-notebook.png width=60%>
+<img src="/assets/img/exempel-notebook.png" width=60%>
 
 I kodcellerna kan man skriva kod i Notebookens valda programmeringsspråk. Alla våra övningar använder Python.
 
