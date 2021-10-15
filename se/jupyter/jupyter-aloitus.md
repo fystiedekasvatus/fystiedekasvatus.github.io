@@ -25,6 +25,7 @@ I kodcellerna kan man skriva kod i Notebookens valda programmeringsspråk. Alla 
 Se exempel på bilden nedan.
 
 ![](/assets/img/exempel-notebook.png)
+<img src=/assets/img/exempel-notebook.png width=80%>
 
 ## Verktyg i Notebook
 
