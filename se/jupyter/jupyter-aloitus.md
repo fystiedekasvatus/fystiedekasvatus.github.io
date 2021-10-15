@@ -23,9 +23,9 @@ I kodcellerna kan man skriva kod i Notebookens valda programmeringsspråk. Alla 
 
 ## Verktyg i Notebook
 
-Man markerar en cell genom att klicka en gång, och öppnar den i editeringsläge när man klickar igen.
+Man markerar en cell genom att klicka en gång, och öppnar den i redigeringsläge när man klickar igen.
 Cellen kan köras med verktygsbalkens **"Run"**-knapp eller med snabbkommandot **Ctrl + Enter**.
-Då cellen är markerad har den en blå kant, om den är öppen i editeringsläge är kanten grön.
+Då cellen är markerad har den en blå kant, om den är öppen i redigeringsläge är kanten grön.
 
 Fler snabkommandon hittas i **Help**-menyn (eller genom att trycka **"h"** när ingen cell är öppen).
 
