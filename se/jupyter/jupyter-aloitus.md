@@ -24,11 +24,9 @@ bilder, tabeller etc. Instruktioner för det hittas på adressen [https://github
 I kodcellerna kan man skriva kod i Notebookens valda programmeringsspråk. Alla våra övningar använder Python.
 Se exempel på bilden nedan.
 
-![](/assets/img/jupyter-cell-example.png)
+![](/assets/img/exempel-notebook.png)
 
 ## Verktyg i Notebook
-
-![](/assets/img/jupyter-tools-example.png)
 
 Man markerar en cell genom att klicka en gång, och öppnar den i editeringsläge när man klickar igen.
 Cellen kan köras med verktygsbalkens **"Run"**-knapp eller med snabbkommandot **Ctrl + Enter**.
