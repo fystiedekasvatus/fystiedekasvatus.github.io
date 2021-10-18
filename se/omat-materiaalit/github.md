@@ -24,7 +24,7 @@ Efter att du har matat in informationen ber sidan dig att öppna ett bekräftels
 Vi kan börja med att skapa ett nytt repositorium. Det här kan du göra via knappen i högra övre hörnet.
 Observera att du först måste öppna bekräftelsemailet som borde ha kommit till din epost.
 
-<img src="/assets/img/github-new-repo.png" width="50%">
+<img src="/assets/img/github-new-repo.png" width="30%">
 
 När du som GitHub-användare skapar ett repositorium syns ditt användarnamn som filens “owner”. (exmpl1 i exempelbilden) Du får namnge projektet och välja om det ska vara offentligt eller privat. Om du har tänkt dela materialet t.ex. i undervisningssyfte är det enklast att göra den offentlig. Dessutom kan det löna sig att lägga till en README-mapp med instruktioner för framtida användare. Om du vill att andra fritt ska kunna använda och vidareutveckla ditt offentliga material borde du bekanta dig med licensering av repositorier. Om man inte ändrar repositoriernas licensinställningar är de skyddade under upphovsrättslagen.
 
