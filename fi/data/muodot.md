@@ -57,7 +57,3 @@ Ja siinä se sitten onkin. Haettiin dataa, katsottiin millaista se on, muotoilti
 
 Kokeile itse samaa luomalla uusi muistio ja etsimällä kiintoisa datasetti (tai kopsaa osoite yltä)!
 <!-- #endregion -->
-
-```python
-
-```
