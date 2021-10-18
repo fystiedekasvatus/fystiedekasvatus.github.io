@@ -12,8 +12,6 @@ Här hittar du instruktioner för hur du kan komma igång.
 
 ## Videoguider
 
-Det finns videoguider som hjälper dig komma igång med materialhanteringen. Följ bara länken:
+Det finns videoguider som hjälper dig komma igång med materialhanteringen. Följ bara länken till vår [Youtube-spellista](https://youtube.com/playlist?list=PLm7stqfLSia7-nxRC03R8POdS3rhoECkX)
 
-[https://www.youtube.com/playlist?list=PLm7stqfLSia5WxRxuGvRC9u7OVTG3irSb](https://www.youtube.com/playlist?list=PLm7stqfLSia5WxRxuGvRC9u7OVTG3irSb)
-
-Här hittar du instruktioner för hur du installerar Anaconda, hanterar Jupyter Notebooks i Anaconda, laddar upp Noteboks till GitHub och delar dem med hjälp av MyBinder.
+Här hittar du instruktioner för hur du installerar Anaconda, hanterar Jupyter Notebooks, laddar upp Noteboks till GitHub och delar dem med hjälp av MyBinder.
