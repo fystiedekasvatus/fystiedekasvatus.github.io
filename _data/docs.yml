@@ -8,7 +8,7 @@ fi:
     - page: Avoin data
       url: /fi/data/avoin-data.html
     - page: Tiedostomuodoista
-           /fi/data/muodot.html
+      url:  /fi/data/muodot.html
     - page: Avoin data -linkkejä
       url: /fi/data/linkkeja.html
 
