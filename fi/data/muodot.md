@@ -1,3 +1,10 @@
+---
+title: Tiedostomuodoista
+lang: fi
+ref: muodoista
+category: data
+---
+
 # 1. Tiedostomuodoista
 
 Jokainen tietokoneiden kanssa toiminut tietää, että informaatiota voidaan siirtää ja esittää useissa muodoissa. Lyhenteet kuten pdf, txt, ppt, rtf, jpg ja monet muut vilisevät niin arkisessa kuin ammatillisessakin käytössä. Kullakin näistä on oma tarkoituksensa, mutta samalla se estää niiden käyttöä toisissa yhteyksissä ilman muodon vaihtoa.
