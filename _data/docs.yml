@@ -48,6 +48,8 @@ en:
     subfolderitems:
     - page: Open Data
       url: /en/data/avoin-data.html
+    - page:
+      url: 
     - page: Links to Open Data
       url: /en/data/linkkeja.html
 
@@ -88,6 +90,8 @@ se:
     subfolderitems:
     - page: Open Data
       url: /se/data/avoin-data.html
+    - page:
+      url:
     - page: Open Data-länkar
       url: /se/data/linkkeja.html
 
