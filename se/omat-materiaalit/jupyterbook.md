@@ -7,7 +7,7 @@ category: omat
 
 # Så gör vi en JupyterBook
 
-<img class="center" src="/assets/img/jupyter-book-logo.png" alt="Jupyter Book logo">
+<img class="center" src="/assets/img/jupyter-book-logo.png" alt="Jupyter Book logo" width="50%">
 
 De olika ämnesindelade sidorna där våra uppgifter hittas är skrivna i Jupyter Book-miljön.
 Jupyter Book låter oss samla Notebooks och textfiler i ett snyggt bokformat.
