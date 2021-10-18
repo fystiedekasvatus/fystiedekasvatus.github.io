@@ -1,7 +1,7 @@
 ---
 title: Tiedostomuodoista
 lang: fi
-ref: muodoista
+ref: muodot
 category: data
 ---
 
