@@ -26,15 +26,12 @@ Suomenkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
 Valmiita työpajakokonaisuuksia löytyy täältä:
 - <a href="https://opendata-education.github.io/Tyopajat" target="_blank">Työpajat</a>
 
-## Englanninkieliset materiaalit
+Kielten oppinaineisiin liittyvää materiaalia löytyy täältä:
+- <a href="https://opendata-education.github.io/Languages" target="_blank">English</a>
 
-Englanninkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
-- <a href="https://opendata-education.github.io/Languages" target="_blank">Languages</a>
+## Englanninkieliset ja ruotsinkieliset materiaalit
 
-## Ruotsinkieliset materiaalit
-
-Ruotsinkielistä materiaalia erityisesti **hiukkasfysiikkaan** liittyen löydät täältä:
-- <a href="https://avoin-data-opas.github.io/se/" target="_blank">https://avoin-data-opas.github.io/se/</a>
+Tällä hetkellä nämä sivut löytyvät sekä englanniksi että ruotsiksi. Ylhäällä olevasta valikosta voit vaihtaa haluamasi kielen, jonka alta löytyy valmiiksi käännettyjä materiaaleja käytettäväksi. Materiaaleja tulee lisää sitä mukaa, kun niitä saadaan valmiiksi.
 
 ## Miten käytän materiaaleja?
 
