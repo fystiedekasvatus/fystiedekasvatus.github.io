@@ -14,16 +14,17 @@ Jupyter Bookien hyviä puolia ovat mm. että niiden käyttöönotto on helppoa, 
 ## Suomenkieliset materiaalit
 
 Perusteita Python-ohjlemointiin ja data-analyysiin Jupyter-ympäristössä.
-- <a href="https://opendata-education.github.io/Python-ja-Jupyter" target="_blank">https://opendata-education.github.io/Python-ja-Jupyter</a>
+- <a href="https://opendata-education.github.io/Python-ja-Jupyter" target="_blank">Perusteet</a>
 
 Suomenkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
+- <a href="https://opendata-education.github.io/Hiukkasfysiikka" target="_blank">Hiukkasfysiikka</a>
 - <a href="https://opendata-education.github.io/Biologia" target="_blank">Biologia</a>
 - <a href="https://opendata-education.github.io/Fysiikka" target="_blank">Fysiikka</a>
 - <a href="https://opendata-education.github.io/Maantiede" target="_blank">Maantiede</a>
 - <a href="https://opendata-education.github.io/Matematiikka" target="_blank">Matematiikka</a>
 
-Lisäksi laajemmin materiaalia ja ohjeita erityisesti **hiukkasfysiikkaan** liittyen löydät täältä:
-- <a href="https://avoin-data-opas.github.io/" target="_blank">https://avoin-data-opas.github.io/</a>
+Valmiita työpajakokonaisuuksia löytyy täältä:
+- <a href="https://opendata-education.github.io/Tyopajat" target="_blank">Työpajat</a>
 
 ## Englanninkieliset materiaalit
 
