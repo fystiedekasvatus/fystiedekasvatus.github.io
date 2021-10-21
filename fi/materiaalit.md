@@ -26,7 +26,7 @@ Suomenkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
 Valmiita työpajakokonaisuuksia löytyy täältä:
 - <a href="https://opendata-education.github.io/Tyopajat" target="_blank">Työpajat</a>
 
-Kielten oppinaineisiin liittyvää materiaalia löytyy täältä:
+Kielten oppiaineisiin liittyvää materiaalia löytyy täältä:
 - <a href="https://opendata-education.github.io/Languages" target="_blank">English</a>
 
 ## Englanninkieliset ja ruotsinkieliset materiaalit
