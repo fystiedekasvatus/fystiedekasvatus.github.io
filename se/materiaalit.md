@@ -22,7 +22,7 @@ Det svenskspråkiga materialet är för tillfället anpassat för dessa ämnen:
 - <a href="https://opendata-education.github.io/se_Biologi/intro.html" target="_blank">Biologi</a>
 
 Mer av vårt svenskspråkiga material, inklusive mer ingående beskrivningar av vad Jypyter och Python är kapabla till, hittas här:
-- <a href="avoin-data-opas.github.io/se/" target="_blank">https://github.com/avoin-data-opas/avoin-data-opas.github.io/tree/master/se/</a>
+- [avoin-data-opas/se](https://github.com/avoin-data-opas/avoin-data-opas.github.io/tree/master/se)
 
 
 ## Suomenkieliset materiaalit
