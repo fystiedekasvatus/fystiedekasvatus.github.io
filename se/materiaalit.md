@@ -20,8 +20,8 @@ Det svenskspråkiga materialet är för tillfället anpassat för dessa ämnen:
 - <a href="https://opendata-education.github.io/se_Geografi/intro.html" target="_blank">Geografi</a>
 - <a href="https://opendata-education.github.io/se_Halsokunskap/intro.html" target="_blank">Hälsokunskap</a>
 - <a href="https://opendata-education.github.io/se_Biologi/intro.html" target="_blank">Biologi</a>
-#- <a href="https://opendata-education.github.io/se_fortbildning/intro.html" target="_blank">Fortbildning för lärare och projektmaterial</a>
 - <a href="https://opendata-education.github.io/fortbildning/intro.html" target="_blank">Fortbildning för lärare och projektmaterial</a>
+
 
 Mer av vårt svenskspråkiga material, inklusive mer ingående beskrivningar av vad Jypyter och Python är kapabla till, hittas här:
 - [avoin-data-opas/se](https://github.com/avoin-data-opas/avoin-data-opas.github.io/tree/master/se)
