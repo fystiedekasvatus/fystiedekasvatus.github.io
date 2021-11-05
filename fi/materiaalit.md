@@ -14,7 +14,7 @@ Jupyter Bookien hyviä puolia ovat mm. että niiden käyttöönotto on helppoa, 
 ## Suomenkieliset materiaalit
 
 Perusteita Python-ohjelmointiin ja data-analyysiin Jupyter-ympäristössä.
-- <a href="https://opendata-education.github.io/Python-ja-Jupyter" target="_blank">Perusteet</a>
+- <a href="https://opendata-education.github.io/Python-ja-Jupyter" target="_blank">Perusteet - Jupyter ja Python</a>
 
 Suomenkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
 - <a href="https://opendata-education.github.io/Hiukkasfysiikka" target="_blank">Hiukkasfysiikka</a>
