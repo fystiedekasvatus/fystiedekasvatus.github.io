@@ -53,4 +53,4 @@ Tässä listattuna joitakin sivustoja, joissa avointa dataa on saatavilla:
 
 **Transport for London** [https://tfl.gov.uk/info-for/open-data-users/our-open-data](https://tfl.gov.uk/info-for/open-data-users/our-open-data)
 
-- Kattava kokoelma avointa dataa Lontoon eri kulkuväyliin liittyen, sekä esimerkiksi ilmanlaadusta ja julkisten vessojen sijainnista.
+- Kattava kokoelma avointa dataa Lontoon eri kulkuväyliin liittyen, sekä esimerkiksi ilmanlaadusta ja bussiasemien julkisista vessoista.
