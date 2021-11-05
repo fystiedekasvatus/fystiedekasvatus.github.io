@@ -49,3 +49,8 @@ Tässä listattuna joitakin sivustoja, joissa avointa dataa on saatavilla:
 **Awesome Public Datasets** [https://github.com/awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets)
 
 - Iso kokoelma eri alojen julkisia aineistoja videopeleistä pankkidataan tai neurotieteisiin, nimellisesti kuratoitu saatavuuden mukaan.
+
+
+**Transport for London** [https://tfl.gov.uk/info-for/open-data-users/our-open-data](https://tfl.gov.uk/info-for/open-data-users/our-open-data)
+
+- Kattava kokoelma avointa dataa Lontoon eri kulkuväyliin liittyen, sekä esimerkiksi ilmanlaadusta ja julkisten vessojen sijainnista.
