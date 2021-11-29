@@ -21,6 +21,8 @@ fi:
       url: /fi/jupyter/jupyter-aloitus.html
     - page: Python-ohjelmointi
       url: /fi/jupyter/python.html
+    - page: Ongelmia?
+      url: /fi/jupyter/troubleshoot.html
    
   - page: Oman materiaalin tekeminen
     url: /fi/omat-materiaalit/omat-materiaalit.html
