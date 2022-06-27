@@ -22,3 +22,4 @@ Linkki avautuu MyBinderin virtuaaliseen ympäristöön, jossa voit huoletta muok
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opendata-education/Python-ja-Jupyter/main?urlpath=tree/materiaali/harjoitukset/data-analyysi_esimerkki.ipynb) [Datan lukeminen ja visualisoiminen Pythonilla](https://mybinder.org/v2/gh/opendata-education/Python-ja-Jupyter/main?urlpath=tree/materiaali/harjoitukset/data-analyysi_esimerkki.ipynb) 
 
 Jos Pythoniin haluaa tutustua syvemmin, voi aloittaa esimerkiksi osoitteesta [https://www.learnpython.org/](https://www.learnpython.org/).
+Lisää yksityiskohtaisempaa opastusta löytyy Pandas-kirjaston osalta [täältä](https://pandas.pydata.org/docs/getting_started/index.html), Numpy-kirjaston osalta [täältä](https://numpy.org/numpy-tutorials/index.html), sekä Matplotlib-kirjaston osalta [täältä](https://matplotlib.org/stable/tutorials/index.html).
