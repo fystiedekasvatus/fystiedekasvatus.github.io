@@ -11,6 +11,7 @@ The developed materials are roughly divided by language, subject, and level. The
 ## Materials in English
 
 English versions of the files can be found here:
+- <a href="https://opendata-education.github.io/en_Workshops" target="_blank">Workshops</a> 
 - <a href="https://opendata-education.github.io/Languages" target="_blank">Text Analysis</a> 
 - <a href="https://opendata-education.github.io/en_Physics/intro.html" target="_blank">Particle Physics</a> 
 
@@ -27,7 +28,7 @@ Material in Swedish can currently be found on the following topics:
 ## Materials in Finnish
 
 Basics of Python programming and data analysis in the Jupyter environment:
-- <a href="https://opendata-education.github.io/Python-ja-Jupyter" target="_blank">https://opendata-education.github.io/Python-ja-Jupyter</a>
+- <a href="https://opendata-education.github.io/Python-ja-Jupyter" target="_blank">Basics of Jupyter and Python</a>
 
 Material in Finnish can currently be found on the following topics:
 - <a href="https://opendata-education.github.io/Biologia" target="_blank">Biology</a>
