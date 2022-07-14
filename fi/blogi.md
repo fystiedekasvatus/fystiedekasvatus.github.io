@@ -6,7 +6,7 @@ ref: blogi
 
 # Blogi
 
-Tervetuloa kurkkaamaan meidän blogiin!
+### Tervetuloa kurkkaamaan meidän blogiin!
 
 Tätä kautta pääset tutustumaan meidän kokemuksiin ja ajatuksiin, sekä selailemaan minkälaisia meidän järjestämät lukiovierailut,
 opettajakoulutukset ja erilaiset työpajat ovat olleet.
