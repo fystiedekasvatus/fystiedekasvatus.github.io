@@ -4,7 +4,9 @@ lang: fi
 ref: blogi
 ---
 
-# Tervetuloa kurkkaamaan meidän blogiin!
+# Blogi
+
+Tervetuloa kurkkaamaan meidän blogiin!
 
 Tätä kautta pääset tutustumaan meidän kokemuksiin ja ajatuksiin, sekä selailemaan minkälaisia meidän järjestämät lukiovierailut,
 opettajakoulutukset ja erilaiset työpajat ovat olleet.
