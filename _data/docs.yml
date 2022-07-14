@@ -40,6 +40,9 @@ fi:
 
   - page: Osallistu kehitystyöhön
     url: /fi/osallistu.html
+    
+  - page: Blogi
+    url: /fi/blogi.html
 
 en:
   - page: Materials
@@ -50,8 +53,6 @@ en:
     subfolderitems:
     - page: Open Data
       url: /en/data/avoin-data.html
-    - page:
-      url: 
     - page: Links to Open Data
       url: /en/data/linkkeja.html
 
@@ -82,6 +83,9 @@ en:
 
   - page: Participate in the Development Work
     url: /en/osallistu.html
+    
+   - page: Blog
+    url: /en/blogi.html
 
 se:
   - page: Material
@@ -92,8 +96,6 @@ se:
     subfolderitems:
     - page: Open Data
       url: /se/data/avoin-data.html
-    - page:
-      url:
     - page: Open Data-länkar
       url: /se/data/linkkeja.html
 
@@ -121,5 +123,8 @@ se:
     - page: Jupyter Book
       url: /se/omat-materiaalit/jupyterbook.html
 
-  - page: Delta i utvecklingsarbetet
+    - page: Delta i utvecklingsarbetet
     url: /se/osallistu.html
+    
+    - page: Blog
+    url: /se/blogi.html
