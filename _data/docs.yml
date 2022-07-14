@@ -128,7 +128,7 @@ se:
       url: /se/omat-materiaalit/jupyterbook.html
 
    - page: Delta i utvecklingsarbetet
-   url: /se/osallistu.html
+     url: /se/osallistu.html
     
    - page: Blog
-   url: /se/blogi.html
+     url: /se/blogi.html
