@@ -45,7 +45,7 @@ fi:
     url: /fi/blogi.html
 
 en:
- - page: Materials
+  - page: Materials
     url: /en/materiaalit.html
 
   - page: Open Data
@@ -87,7 +87,7 @@ en:
     url: /en/osallistu.html
     
    - page: Blog
-    url: /en/blogi.html
+     url: /en/blogi.html
 
 se:
   - page: Material
