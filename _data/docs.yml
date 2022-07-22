@@ -40,9 +40,12 @@ fi:
 
   - page: Osallistu kehitystyöhön
     url: /fi/osallistu.html
+    
+  - page: Blogi
+    url: /fi/blogi.html
 
 en:
-  - page: Materials
+ - page: Materials
     url: /en/materiaalit.html
 
   - page: Open Data
