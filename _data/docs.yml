@@ -85,9 +85,6 @@ en:
 
   - page: Participate in the Development Work
     url: /en/osallistu.html
-    
-   - page: Blog
-     url: /en/blogi.html
 
 se:
   - page: Material
@@ -129,6 +126,3 @@ se:
 
    - page: Delta i utvecklingsarbetet
      url: /se/osallistu.html
-    
-   - page: Blog
-     url: /se/blogi.html
