@@ -1,4 +1,4 @@
-fi: 
+fi:
   - page: Materiaalit
     url: /fi/materiaalit.html
   
@@ -11,7 +11,7 @@ fi:
       url:  /fi/data/muodot.html
     - page: Avoin data -linkkejä
       url: /fi/data/linkkeja.html
-
+      
   - page: Jupyter Notebook -ympäristö
     url: /fi/jupyter/jupyter.html
     subfolderitems:
@@ -23,7 +23,7 @@ fi:
       url: /fi/jupyter/python.html
     - page: Ongelmia?
       url: /fi/jupyter/troubleshoot.html
-   
+      
   - page: Oman materiaalin tekeminen
     url: /fi/omat-materiaalit/omat-materiaalit.html
     subfolderitems:
@@ -40,6 +40,7 @@ fi:
 
   - page: Osallistu kehitystyöhön
     url: /fi/osallistu.html
+    
 en:
   - page: Materials
     url: /en/materiaalit.html
@@ -49,8 +50,6 @@ en:
     subfolderitems:
     - page: Open Data
       url: /en/data/avoin-data.html
-    - page: 
-      url:
     - page: Links to Open Data
       url: /en/data/linkkeja.html
 
@@ -81,17 +80,16 @@ en:
 
   - page: Participate in the Development Work
     url: /en/osallistu.html
+    
 se:
   - page: Material
     url: /se/materiaalit.html
-  
+    
   - page: Open Data
     url: /se/data/avoin-data.html
     subfolderitems:
     - page: Open Data
       url: /se/data/avoin-data.html
-    - page:
-      url: 
     - page: Open Data-länkar
       url: /se/data/linkkeja.html
 
