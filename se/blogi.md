@@ -6,7 +6,7 @@ ref: blogi
 
 # Blog
 
-### Tervetuloa kurkkaamaan meidän blogiin!
+#### Tervetuloa kurkkaamaan meidän blogiin!
 
 Pahoittelut, toistaiseksi blogimme löytyy ainoastaan suomeksi ja englanniksi.
 
@@ -17,7 +17,7 @@ Jos haluat vierailla blogissamme suomeksi:
 <a href="https://opendata-education.github.io/Blogi" target="_blank">Tästä blogiin!</a>
 
 
-### Welcome to peep into our blog!
+#### Welcome to peep into our blog!
 
 Unfortunately our blog is currently only in Finnish and English.
 
