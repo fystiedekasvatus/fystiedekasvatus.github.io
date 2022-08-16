@@ -40,7 +40,6 @@ fi:
 
   - page: Osallistu kehitystyöhön
     url: /fi/osallistu.html
-
 en:
   - page: Materials
     url: /en/materiaalit.html
@@ -82,7 +81,6 @@ en:
 
   - page: Participate in the Development Work
     url: /en/osallistu.html
-
 se:
   - page: Material
     url: /se/materiaalit.html
