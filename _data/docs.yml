@@ -40,9 +40,6 @@ fi:
 
   - page: Osallistu kehitystyöhön
     url: /fi/osallistu.html
-    
-  - page: Blogi
-    url: /fi/blogi.html
 
 en:
   - page: Materials
