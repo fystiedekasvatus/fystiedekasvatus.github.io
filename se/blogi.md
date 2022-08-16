@@ -8,7 +8,7 @@ ref: blogi
 
 ### Tervetuloa kurkkaamaan meidän blogiin!
 
-Valitettavasti toistaiseksi blogimme löytyy ainoastaan suomeksi ja englanniksi.
+Pahoittelut, toistaiseksi blogimme löytyy ainoastaan suomeksi ja englanniksi.
 
 Tätä kautta pääset tutustumaan meidän kokemuksiin ja ajatuksiin, sekä selailemaan minkälaisia meidän järjestämät lukiovierailut,
 opettajakoulutukset ja erilaiset työpajat ovat olleet.
