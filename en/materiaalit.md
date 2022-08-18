@@ -11,6 +11,7 @@ The developed materials are roughly divided by language, subject, and level. The
 ## Materials in English
 
 English versions of the files can be found here:
+- <a href="https://opendata-education.github.io/en_Python-and-Jupyter" target="_blank">Basics of Python and Jupyter</a> 
 - <a href="https://opendata-education.github.io/en_Workshops" target="_blank">Workshops</a> 
 - <a href="https://opendata-education.github.io/Languages" target="_blank">Text Analysis</a> 
 - <a href="https://opendata-education.github.io/en_Physics/intro.html" target="_blank">Particle Physics</a> 
