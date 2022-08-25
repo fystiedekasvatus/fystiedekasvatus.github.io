@@ -18,19 +18,17 @@ Perusteita Python-ohjelmointiin ja data-analyysiin Jupyter-ympäristössä.
 
 Suomenkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
 - <a href="https://opendata-education.github.io/Hiukkasfysiikka" target="_blank">Hiukkasfysiikka</a>
-- <a href="https://opendata-education.github.io/Biologia" target="_blank">Biologia</a>
 - <a href="https://opendata-education.github.io/Fysiikka" target="_blank">Fysiikka</a>
-- <a href="https://opendata-education.github.io/Maantiede" target="_blank">Maantiede</a>
 - <a href="https://opendata-education.github.io/Matematiikka" target="_blank">Matematiikka</a>
+- <a href="https://opendata-education.github.io/Biologia" target="_blank">Biologia</a>
+- <a href="https://opendata-education.github.io/Maantiede" target="_blank">Maantiede</a>
+- - <a href="https://opendata-education.github.io/Languages" target="_blank">English</a>
 
 Oman materiaalin valmistelun tueksi tehdyt mallipohjia löytyy täältä:
 - <a href="https://opendata-education.github.io/Mallipohjat" target="_blank">Mallipohjat</a>
 
 Valmiita työpajakokonaisuuksia löytyy täältä:
 - <a href="https://opendata-education.github.io/Tyopajat" target="_blank">Työpajat</a>
-
-Kielten oppiaineisiin liittyvää materiaalia löytyy täältä:
-- <a href="https://opendata-education.github.io/Languages" target="_blank">English</a>
 
 ## Englanninkieliset ja ruotsinkieliset materiaalit
 
