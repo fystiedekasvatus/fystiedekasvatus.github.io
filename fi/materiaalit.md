@@ -22,7 +22,7 @@ Suomenkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
 - <a href="https://opendata-education.github.io/Matematiikka" target="_blank">Matematiikka</a>
 - <a href="https://opendata-education.github.io/Biologia" target="_blank">Biologia</a>
 - <a href="https://opendata-education.github.io/Maantiede" target="_blank">Maantiede</a>
-- <a href="https://opendata-education.github.io/Languages" target="_blank">English</a>
+- <a href="https://opendata-education.github.io/Languages" target="_blank">Englanti</a>
 
 Oman materiaalin valmistelun tueksi tehdyt mallipohjia löytyy täältä:
 - <a href="https://opendata-education.github.io/Mallipohjat" target="_blank">Mallipohjat</a>
