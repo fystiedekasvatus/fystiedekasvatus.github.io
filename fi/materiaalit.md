@@ -23,6 +23,9 @@ Suomenkielistä materiaalia löytyy tällä hetkellä seuraavista aiheista:
 - <a href="https://opendata-education.github.io/Maantiede" target="_blank">Maantiede</a>
 - <a href="https://opendata-education.github.io/Matematiikka" target="_blank">Matematiikka</a>
 
+Oman materiaalin valmistelun tueksi tehdyt mallipohjia löytyy täältä:
+- <a href="https://opendata-education.github.io/Mallipohjat" target="_blank">Mallipohjat</a>
+
 Valmiita työpajakokonaisuuksia löytyy täältä:
 - <a href="https://opendata-education.github.io/Tyopajat" target="_blank">Työpajat</a>
 
