@@ -1,13 +1,13 @@
 fi:
 
-  - page: Demovideoita!
+  - page: Demovideoita
     url: /fi/data/aaltoja.html
     subfolderitems:
-    - page: Aaltoja!
+    - page: Aaltoja
       url: /fi/data/aaltoja.html
-    - page: Kvanttifysiikkaa!
+    - page: Kvanttifysiikkaa
       url:  /fi/data/kvantti.html
-    - page: Klassista kamaa!
+    - page: Klassista kamaa
       url: /fi/data/klassinen.html
 
   - page: Opiskelusta laitoksella
