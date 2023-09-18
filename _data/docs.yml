@@ -15,20 +15,7 @@ fi:
          
 en:
 
-  - page: Open Data
-    url: /en/data/avoin-data.html
-    subfolderitems:
-    - page: Open Data
-      url: /en/data/avoin-data.html
-    - page: Links to Open Data
-      url: /en/data/linkkeja.html
     
 se:
 
-  - page: Open Data
-    url: /se/data/avoin-data.html
-    subfolderitems:
-    - page: Open Data
-      url: /se/data/avoin-data.html
-    - page: Open Data-länkar
-      url: /se/data/linkkeja.html
+ 
