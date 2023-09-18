@@ -11,7 +11,7 @@ fi:
       url: /fi/data/klassinen.html
 
   - page: Opiskelusta laitoksella
-    #url: /fi/data/...
+    url: /fi/data/opiskelu.md
          
 en:
 
