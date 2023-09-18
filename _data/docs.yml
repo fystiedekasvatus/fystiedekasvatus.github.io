@@ -1,7 +1,5 @@
 fi:
-  - page: Materiaalit
-    url: /fi/materiaalit.html
-  
+
   - page: Avoin data
     url: /fi/data/avoin-data.html
     subfolderitems:
@@ -11,42 +9,8 @@ fi:
       url:  /fi/data/muodot.html
     - page: Avoin data -linkkejä
       url: /fi/data/linkkeja.html
-      
-  - #page: Jupyter Notebook -ympäristö
-    #url: /fi/jupyter/jupyter.html
-    #subfolderitems:
-    - #page: Jupyter Notebook -ympäristö
-      #url: /fi/jupyter/jupyter.html
-    - #page: Notebookien käyttö
-      #url: /fi/jupyter/jupyter-aloitus.html
-    - #page: Python-ohjelmointi
-      #url: /fi/jupyter/python.html
-    - #page: Ongelmia?
-      #url: /fi/jupyter/troubleshoot.html
-      
-  - page: Oman materiaalin tekeminen
-    url: /fi/omat-materiaalit/omat-materiaalit.html
-    subfolderitems:
-    - page: Oman materiaalin tekeminen
-      url: /fi/omat-materiaalit/omat-materiaalit.html
-    - page: Notebookien luominen
-      url: /fi/omat-materiaalit/notebookien-luominen.html
-    - page: GitHub
-      url: /fi/omat-materiaalit/github.html
-    - page: MyBinder
-      url: /fi/omat-materiaalit/mybinder.html
-    - page: Jupyter Book
-      url: /fi/omat-materiaalit/jupyterbook.html
-
-  - page: Osallistu kehitystyöhön
-    url: /fi/osallistu.html
-  
-  - page: Blogi
-    url: /fi/blogi.html
-    
+         
 en:
-  - page: Materials
-    url: /en/materiaalit.html
 
   - page: Open Data
     url: /en/data/avoin-data.html
@@ -55,42 +19,9 @@ en:
       url: /en/data/avoin-data.html
     - page: Links to Open Data
       url: /en/data/linkkeja.html
-
-
-  - page: Jupyter Notebook Environment
-    url: /en/jupyter/jupyter.html
-    subfolderitems:
-    - page: Jupyter Notebook Environment
-      url: /en/jupyter/jupyter.html
-    - page: How to Use a Notebook
-      url: /en/jupyter/jupyter-aloitus.html
-    - page: Python Programming
-      url: /en/jupyter/python.html
-
-  - page: Creating your own material
-    url: /en/omat-materiaalit/omat-materiaalit.html
-    subfolderitems:
-    - page: Creating your own material
-      url: /en/omat-materiaalit/omat-materiaalit.html
-    - page: Creating and editing your own notebooks
-      url: /en/omat-materiaalit/notebookien-luominen.html
-    - page: Uploading Material to GitHub
-      url: /en/omat-materiaalit/github.html
-    - page: Sharing Materials with MyBinder
-      url: /en/omat-materiaalit/mybinder.html
-    - page: Making your own Jupyter Book
-      url: /en/omat-materiaalit/jupyterbook.html
-
-  - page: Participate in the Development Work
-    url: /en/osallistu.html
-    
-  - page: Blog
-    url: /en/blogi.html
     
 se:
-  - page: Material
-    url: /se/materiaalit.html
-    
+
   - page: Open Data
     url: /se/data/avoin-data.html
     subfolderitems:
@@ -98,33 +29,3 @@ se:
       url: /se/data/avoin-data.html
     - page: Open Data-länkar
       url: /se/data/linkkeja.html
-
-  - page: Jupyter Notebook-miljön
-    url: /se/jupyter/jupyter.html
-    subfolderitems:
-    - page: Jupyter Notebook-miljön
-      url: /se/jupyter/jupyter.html
-    - page: Att använda notebooks
-      url: /se/jupyter/jupyter-aloitus.html
-    - page: Python-programmering
-      url: /se/jupyter/python.html
-   
-  - page: Att skapa material
-    url: /se/omat-materiaalit/omat-materiaalit.html
-    subfolderitems:
-    - page: Att skapa material
-      url: /se/omat-materiaalit/omat-materiaalit.html
-    - page: Att skapa en Notebook
-      url: /se/omat-materiaalit/notebookien-luominen.html
-    - page: GitHub
-      url: /se/omat-materiaalit/github.html
-    - page: MyBinder
-      url: /se/omat-materiaalit/mybinder.html
-    - page: Jupyter Book
-      url: /se/omat-materiaalit/jupyterbook.html
-
-  - page: Delta i utvecklingsarbetet
-    url: /se/osallistu.html
-    
-  - page: Blog
-    url: /se/blogi.html
