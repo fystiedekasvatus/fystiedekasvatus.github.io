@@ -6,9 +6,9 @@ fi:
     - page: Aaltoja!
       url: /fi/data/aaltoja.html
     - page: Kvanttifysiikkaa!
-      url:  /fi/data/muodot.html
+      url:  /fi/data/kvantti.html
     - page: Klassista kamaa!
-      url: /fi/data/linkkeja.html
+      url: /fi/data/klassinen.html
 
   - page: Opiskelusta laitoksella
     #url: /fi/data/...
