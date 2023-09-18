@@ -1,14 +1,17 @@
 fi:
 
-  - page: Avoin data
+  - page: Demovideoita!
     url: /fi/data/avoin-data.html
     subfolderitems:
-    - page: Avoin data
+    - page: Aaltoja!
       url: /fi/data/avoin-data.html
-    - page: Tiedostomuodoista
+    - page: Kvanttifysiikkaa!
       url:  /fi/data/muodot.html
-    - page: Avoin data -linkkejä
+    - page: Klassista kamaa!
       url: /fi/data/linkkeja.html
+
+  - page: Opiskelusta laitoksella
+    #url: /fi/data/...
          
 en:
 
