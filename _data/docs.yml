@@ -1,7 +1,7 @@
 fi:
 
   - page: Demovideoita!
-    url: /fi/data/avoin-data.html
+    url: /fi/data/aaltoja.html
     subfolderitems:
     - page: Aaltoja!
       url: /fi/data/aaltoja.html
