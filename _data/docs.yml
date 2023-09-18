@@ -4,7 +4,7 @@ fi:
     url: /fi/data/avoin-data.html
     subfolderitems:
     - page: Aaltoja!
-      url: /fi/data/avoin-data.html
+      url: /fi/data/aaltoja.html
     - page: Kvanttifysiikkaa!
       url:  /fi/data/muodot.html
     - page: Klassista kamaa!
