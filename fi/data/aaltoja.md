@@ -11,13 +11,18 @@ category: data
 
 Tyypillinen aalto on dynaaminen häiriö väliaineessa, kuten ääniaalto paineen muutoksena ilmassa. Sähkömagneettiset aallot, kuten näkyvä valo, pystyvät etenemään myös tyhjiössä ja vaativat hitusen ymmärrystä kenttien käsitteestä.
 
+
 ## Polarisaatio: miksi valo näyttää vääntyvän?
+
 
 {% include youtube.html id="QCX62YJCmGk" %}
 
+
 ## Syvempi sukellus aiheeseen:
 
+
 {% include youtube.html id="aXRTczANuIs" %}
+
 
 ## Kokeile kotona!
 - Liuota reippaasti taloussokeria läpinäkyvään vesiastiaan.
