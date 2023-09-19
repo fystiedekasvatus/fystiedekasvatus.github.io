@@ -11,4 +11,6 @@ Tähän siistejä kvanttijuttuja!
 
 ## 1. Valosähköinen ilmiö
 
-[Lyhyt johdantovideo](https://www.youtube.com/watch?v=yqrXSLt5U1U)
+Lyhyt johdantovideo:
+
+{% include youtube.html id="yqrXSLt5U1U" %}  
